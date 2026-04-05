@@ -2,3 +2,6 @@ ts,batch,event,file,rows_before,rows_after,detail
 2026-04-05 13:15:59 UK,GEN,SEASON_2526_GENERATED,season_2025_26.json,0,14783,
 2026-04-05 13:16:10 UK,GEN,SEASON_2425_GENERATED,season_2024_25.json,0,23144,
 2026-04-05 13:16:10 UK,GEN,GENERATE_COMPLETE,,0,0,elapsed=1387s
+2026-04-05 16:00:03 UK,B3,BATCH_START,,0,0,date=2026-04-05
+2026-04-05 16:00:23 UK,B3,PROPS_FETCHED,,0,0,132 props
+2026-04-05 16:00:26 UK,B3,PREDICTIONS,,0,0,"130 plays, skipped={'no_player': 2, 'no_history': 0, 'no_feats': 0}"
