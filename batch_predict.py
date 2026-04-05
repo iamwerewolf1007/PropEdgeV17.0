@@ -482,29 +482,37 @@ def append_season_json(plays: list[dict]) -> None:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def git_push(message: str) -> None:
-    import subprocess, shlex
+    import subprocess, os
     repo = REPO_DIR if REPO_DIR.exists() else Path(__file__).parent
+    # Force SSH — never HTTPS — so no credential prompts
+    env = {
+        **os.environ,
+        "GIT_SSH_COMMAND": "ssh -o BatchMode=yes -o StrictHostKeyChecking=no",
+    }
     try:
-        subprocess.run(["git", "-C", str(repo), "remote", "set-url", "origin", GIT_REMOTE],
-                       capture_output=True)
-        subprocess.run(["git", "-C", str(repo), "add", "-A"], capture_output=True)
-        result = subprocess.run(["git", "-C", str(repo), "commit", "-m", message],
-                                capture_output=True, text=True)
-        if "nothing to commit" in result.stdout:
+        # Ensure remote is SSH URL (not HTTPS)
+        subprocess.run(
+            ["git", "-C", str(repo), "remote", "set-url", "origin", GIT_REMOTE],
+            capture_output=True, env=env,
+        )
+        subprocess.run(
+            ["git", "-C", str(repo), "add", "-A"],
+            capture_output=True, env=env,
+        )
+        result = subprocess.run(
+            ["git", "-C", str(repo), "commit", "-m", message],
+            capture_output=True, text=True, env=env,
+        )
+        if "nothing to commit" in (result.stdout + result.stderr):
             print("  Git: nothing to commit."); return
         push = subprocess.run(
-            ["git", "-C", str(repo), "push",
-             "-o", "BatchMode=yes", "-o", "StrictHostKeyChecking=no"],
-            capture_output=True, text=True, timeout=60,
+            ["git", "-C", str(repo), "push", "--set-upstream", "origin", "main"],
+            capture_output=True, text=True, timeout=60, env=env,
         )
         if push.returncode == 0:
             print("  Git push ✓")
         else:
-            # Try with --set-upstream
-            subprocess.run(
-                ["git", "-C", str(repo), "push", "--set-upstream", "origin", "main"],
-                capture_output=True, timeout=60,
-            )
+            print(f"  ⚠ Git push failed: {push.stderr.strip()[:120]}")
     except subprocess.TimeoutExpired:
         print("  ⚠ Git push timed out — local files are correct.")
     except Exception as e:
