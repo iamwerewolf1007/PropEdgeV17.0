@@ -7,28 +7,28 @@
     "away": "Cleveland Cavaliers",
     "opponent": "Cleveland Cavaliers",
     "line": 25.5,
-    "overOdds": 100,
-    "underOdds": -132,
+    "overOdds": 100.0,
+    "underOdds": -132.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
-    "conf": 0.5143,
-    "predPts": 21.6,
-    "predGap": 3.9,
+    "conf": 0.512,
+    "predPts": 20.3,
+    "predGap": 5.21,
     "calProb": 0.4302,
-    "gapConf": 0.6559,
-    "compConf": 0.64,
-    "composite": -0.4667,
-    "flags": 4,
+    "gapConf": 0.7083,
+    "compConf": 0.52,
+    "composite": 0.0667,
+    "flags": 3,
     "flagDetails": [
       {
         "name": "Volume",
-        "value": -1.0,
+        "value": 1.0,
         "weight": 3.0,
-        "agrees": true
+        "agrees": false
       },
       {
         "name": "HR_L30",
@@ -38,7 +38,7 @@
       },
       {
         "name": "HR_L10",
-        "value": 0.0,
+        "value": 1.0,
         "weight": 2.0,
         "agrees": false
       },
@@ -91,15 +91,15 @@
     "earlySeasonW": 1.0,
     "seasonProgress": 0.0,
     "meanReversionRisk": 0.5,
-    "l30": 25.2,
-    "l10": 24.1,
-    "l5": 20.6,
-    "l3": 23.0,
-    "std10": 9.99,
-    "hr10": 0.5,
-    "hr30": 0.467,
-    "min_l10": 33.4,
-    "fga_l10": 17.3,
+    "l30": 26.0,
+    "l10": 25.5,
+    "l5": 22.6,
+    "l3": 24.3,
+    "std10": 10.83,
+    "hr10": 0.6,
+    "hr30": 0.5,
+    "min_l10": 33.8,
+    "fga_l10": 18.4,
     "defP_dynamic": 15.0,
     "pace_rank": 15.0,
     "h2h_avg": 0.0,
@@ -108,33 +108,26 @@
     "h2h_fga_dev": 0.0,
     "h2h_conf": 0.0,
     "game_time": "",
-    "home_l10": 24.4,
+    "home_l10": 25.7,
     "away_l10": 24.8,
-    "min_l30": 32.9,
-    "vol_risk": 2.549,
-    "usage_l10": 13.54,
-    "usage_l30": 21.35,
-    "min_cv": 0.128,
-    "fta_l10": 5.9,
-    "ft_rate": 0.341,
-    "fg3a_l10": 6.4,
-    "pts_per_min": 0.721,
-    "home_away_split": -0.4,
-    "level_ewm": 22.0,
-    "line_vs_l30": 0.3,
+    "min_l30": 32.7,
+    "vol_risk": 2.761,
+    "usage_l10": 12.18,
+    "usage_l30": 20.85,
+    "min_cv": 0.12,
+    "fta_l10": 6.3,
+    "ft_rate": 0.342,
+    "fg3a_l10": 6.7,
+    "pts_per_min": 0.754,
+    "home_away_split": 0.9,
+    "level_ewm": 27.4,
+    "line_vs_l30": -0.5,
     "extreme_hot": 0,
     "extreme_cold": 0,
     "is_long_rest": 1,
-    "recent_min_trend": -2.0,
+    "recent_min_trend": -3.3,
     "h2h_trend": 0.0,
     "recent20": [
-      {
-        "date": "2026-02-07",
-        "pts": 35.0,
-        "home": false,
-        "opponent": "SAC",
-        "overLine": true
-      },
       {
         "date": "2026-02-09",
         "pts": 32.0,
@@ -267,14 +260,26 @@
         "home": false,
         "opponent": "GSW",
         "overLine": false
+      },
+      {
+        "date": "2026-04-05",
+        "pts": 38.0,
+        "home": true,
+        "opponent": "IND",
+        "overLine": true
       }
     ],
-    "preMatchReason": "Donovan Mitchell is trending down 4.6pts vs their L30 baseline (L5: 20.6). Mixed signals: 4/10 agree. Key counter-signals: none. V14 model projects 21.6pts (+-3.9 vs line). Fusion confidence: 51% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
+    "preMatchReason": "Donovan Mitchell is trending down 3.4pts vs their L30 baseline (L5: 22.6). Mixed signals: 3/10 agree. Key counter-signals: Volume, HR_L10. V14 model projects 20.3pts (+-5.2 vs line). Fusion confidence: 51% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
     "lineHistory": [
       {
         "line": 25.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 25.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -286,11 +291,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 27.5,
-    "overOdds": -114,
-    "underOdds": -114,
+    "overOdds": -114.0,
+    "underOdds": -114.0,
     "books": 4,
     "position": "Center",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -554,6 +559,11 @@
         "line": 27.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 27.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -565,11 +575,11 @@
     "away": "Cleveland Cavaliers",
     "opponent": "Cleveland Cavaliers",
     "line": 19.5,
-    "overOdds": -102,
-    "underOdds": -130,
+    "overOdds": -102.0,
+    "underOdds": -130.0,
     "books": 4,
     "position": "Center",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -833,6 +843,11 @@
         "line": 19.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 19.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -844,11 +859,11 @@
     "away": "Cleveland Cavaliers",
     "opponent": "Cleveland Cavaliers",
     "line": 14.5,
-    "overOdds": -118,
-    "underOdds": -112,
+    "overOdds": -118.0,
+    "underOdds": -112.0,
     "books": 4,
     "position": "Center",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "LEAN OVER",
     "tierLabel": "T3_LEAN",
     "tier": 3,
@@ -1112,285 +1127,11 @@
         "line": 14.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
-      }
-    ]
-  },
-  {
-    "player": "James Harden",
-    "date": "2026-04-06",
-    "game": "Cleveland Cavaliers @ Memphis Grizzlies",
-    "home": "Memphis Grizzlies",
-    "away": "Cleveland Cavaliers",
-    "opponent": "Cleveland Cavaliers",
-    "line": 19.5,
-    "overOdds": -108,
-    "underOdds": -122,
-    "books": 5,
-    "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
-    "direction": "UNDER",
-    "tierLabel": "T3",
-    "tier": 3,
-    "conf": 0.4894,
-    "predPts": 17.4,
-    "predGap": 2.1,
-    "calProb": 0.446,
-    "gapConf": 0.5838,
-    "compConf": 0.56,
-    "composite": -0.2,
-    "flags": 4,
-    "flagDetails": [
-      {
-        "name": "Volume",
-        "value": 1.0,
-        "weight": 3.0,
-        "agrees": false
       },
       {
-        "name": "HR_L30",
-        "value": 0.0,
-        "weight": 2.5,
-        "agrees": false
-      },
-      {
-        "name": "HR_L10",
-        "value": -1.0,
-        "weight": 2.0,
-        "agrees": true
-      },
-      {
-        "name": "Trend",
-        "value": -1.0,
-        "weight": 2.0,
-        "agrees": true
-      },
-      {
-        "name": "Context",
-        "value": -1.0,
-        "weight": 1.0,
-        "agrees": true
-      },
-      {
-        "name": "Defense",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "H2H",
-        "value": 0.0,
-        "weight": 1.2,
-        "agrees": false
-      },
-      {
-        "name": "Pace",
-        "value": 0.0,
-        "weight": 0.5,
-        "agrees": false
-      },
-      {
-        "name": "FG_Trend",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "Min_Trend",
-        "value": -1.0,
-        "weight": 1.0,
-        "agrees": true
-      }
-    ],
-    "units": 0.0,
-    "h2hAligned": true,
-    "enginesAgree": true,
-    "earlySeasonW": 1.0,
-    "seasonProgress": 0.0,
-    "meanReversionRisk": 0.5,
-    "l30": 21.1,
-    "l10": 20.6,
-    "l5": 16.8,
-    "l3": 16.3,
-    "std10": 6.77,
-    "hr10": 0.4,
-    "hr30": 0.5,
-    "min_l10": 35.7,
-    "fga_l10": 13.2,
-    "defP_dynamic": 15.0,
-    "pace_rank": 15.0,
-    "h2h_avg": 0.0,
-    "h2h_games": 0,
-    "h2h_ts_dev": 0.0,
-    "h2h_fga_dev": 0.0,
-    "h2h_conf": 0.0,
-    "game_time": "",
-    "home_l10": 18.1,
-    "away_l10": 22.1,
-    "min_l30": 34.3,
-    "vol_risk": 1.32,
-    "usage_l10": 12.26,
-    "usage_l30": 18.24,
-    "min_cv": 0.115,
-    "fta_l10": 6.3,
-    "ft_rate": 0.477,
-    "fg3a_l10": 6.8,
-    "pts_per_min": 0.577,
-    "home_away_split": -4.0,
-    "level_ewm": 18.1,
-    "line_vs_l30": -1.6,
-    "extreme_hot": 0,
-    "extreme_cold": 0,
-    "is_long_rest": 1,
-    "recent_min_trend": -1.4,
-    "h2h_trend": 0.0,
-    "recent20": [
-      {
-        "date": "2026-02-19",
-        "pts": 16.0,
-        "home": true,
-        "opponent": "BKN",
-        "overLine": false
-      },
-      {
-        "date": "2026-02-20",
-        "pts": 18.0,
-        "home": false,
-        "opponent": "CHA",
-        "overLine": false
-      },
-      {
-        "date": "2026-02-22",
-        "pts": 20.0,
-        "home": false,
-        "opponent": "OKC",
-        "overLine": true
-      },
-      {
-        "date": "2026-02-24",
-        "pts": 20.0,
-        "home": true,
-        "opponent": "NYK",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-01",
-        "pts": 22.0,
-        "home": false,
-        "opponent": "BKN",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-03",
-        "pts": 18.0,
-        "home": true,
-        "opponent": "DET",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-08",
-        "pts": 19.0,
-        "home": true,
-        "opponent": "BOS",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-09",
-        "pts": 21.0,
-        "home": true,
-        "opponent": "PHI",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-11",
-        "pts": 30.0,
-        "home": false,
-        "opponent": "ORL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-13",
-        "pts": 17.0,
-        "home": false,
-        "opponent": "DAL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-15",
-        "pts": 13.0,
-        "home": true,
-        "opponent": "DAL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-17",
-        "pts": 27.0,
-        "home": false,
-        "opponent": "MIL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-19",
-        "pts": 36.0,
-        "home": false,
-        "opponent": "CHI",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-21",
-        "pts": 20.0,
-        "home": false,
-        "opponent": "NOP",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-24",
-        "pts": 26.0,
-        "home": true,
-        "opponent": "ORL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-25",
-        "pts": 18.0,
-        "home": true,
-        "opponent": "MIA",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-27",
-        "pts": 17.0,
-        "home": true,
-        "opponent": "MIA",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-30",
-        "pts": 13.0,
-        "home": false,
-        "opponent": "UTA",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-31",
-        "pts": 17.0,
-        "home": false,
-        "opponent": "LAL",
-        "overLine": false
-      },
-      {
-        "date": "2026-04-02",
-        "pts": 19.0,
-        "home": false,
-        "opponent": "GSW",
-        "overLine": false
-      }
-    ],
-    "preMatchReason": "James Harden is trending down 4.3pts vs their L30 baseline (L5: 16.8). Mixed signals: 4/10 agree. Key counter-signals: Volume. V14 model projects 17.4pts (+-2.1 vs line). Fusion confidence: 49% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
-    "lineHistory": [
-      {
-        "line": 19.5,
-        "batch": 1,
-        "ts": "2026-04-06T07:32:24.881759+00:00"
+        "line": 14.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -1402,11 +1143,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 10.5,
-    "overOdds": -120,
-    "underOdds": -110,
+    "overOdds": -120.0,
+    "underOdds": -110.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "LEAN UNDER",
     "tierLabel": "T3_LEAN",
     "tier": 3,
@@ -1670,285 +1411,11 @@
         "line": 10.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
-      }
-    ]
-  },
-  {
-    "player": "Tristan da Silva",
-    "date": "2026-04-06",
-    "game": "Detroit Pistons @ Orlando Magic",
-    "home": "Orlando Magic",
-    "away": "Detroit Pistons",
-    "opponent": "Detroit Pistons",
-    "line": 8.5,
-    "overOdds": 100,
-    "underOdds": -132,
-    "books": 5,
-    "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
-    "direction": "LEAN UNDER",
-    "tierLabel": "T3_LEAN",
-    "tier": 3,
-    "conf": 0.4876,
-    "predPts": 9.5,
-    "predGap": 0.97,
-    "calProb": 0.47,
-    "gapConf": 0.5387,
-    "compConf": 0.65,
-    "composite": 0.5,
-    "flags": 4,
-    "flagDetails": [
-      {
-        "name": "Volume",
-        "value": 1.0,
-        "weight": 3.0,
-        "agrees": true
       },
       {
-        "name": "HR_L30",
-        "value": 1.0,
-        "weight": 2.5,
-        "agrees": true
-      },
-      {
-        "name": "HR_L10",
-        "value": 1.0,
-        "weight": 2.0,
-        "agrees": true
-      },
-      {
-        "name": "Trend",
-        "value": 1.0,
-        "weight": 2.0,
-        "agrees": true
-      },
-      {
-        "name": "Context",
-        "value": -1.0,
-        "weight": 1.0,
-        "agrees": false
-      },
-      {
-        "name": "Defense",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "H2H",
-        "value": 0.0,
-        "weight": 1.2,
-        "agrees": false
-      },
-      {
-        "name": "Pace",
-        "value": 0.0,
-        "weight": 0.5,
-        "agrees": false
-      },
-      {
-        "name": "FG_Trend",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "Min_Trend",
-        "value": -1.0,
-        "weight": 1.0,
-        "agrees": false
-      }
-    ],
-    "units": 0.0,
-    "h2hAligned": true,
-    "enginesAgree": false,
-    "earlySeasonW": 1.0,
-    "seasonProgress": 0.0,
-    "meanReversionRisk": 0.0,
-    "l30": 11.4,
-    "l10": 13.5,
-    "l5": 13.4,
-    "l3": 12.3,
-    "std10": 5.12,
-    "hr10": 0.9,
-    "hr30": 0.6,
-    "min_l10": 27.9,
-    "fga_l10": 9.2,
-    "defP_dynamic": 15.0,
-    "pace_rank": 15.0,
-    "h2h_avg": 0.0,
-    "h2h_games": 0,
-    "h2h_ts_dev": 0.0,
-    "h2h_fga_dev": 0.0,
-    "h2h_conf": 0.0,
-    "game_time": "",
-    "home_l10": 15.8,
-    "away_l10": 11.3,
-    "min_l30": 28.0,
-    "vol_risk": 0.435,
-    "usage_l10": 6.87,
-    "usage_l30": 8.64,
-    "min_cv": 0.185,
-    "fta_l10": 3.6,
-    "ft_rate": 0.391,
-    "fg3a_l10": 4.4,
-    "pts_per_min": 0.484,
-    "home_away_split": 4.5,
-    "level_ewm": 14.1,
-    "line_vs_l30": -2.9,
-    "extreme_hot": 0,
-    "extreme_cold": 0,
-    "is_long_rest": 1,
-    "recent_min_trend": -2.2,
-    "h2h_trend": 0.0,
-    "recent20": [
-      {
-        "date": "2026-02-26",
-        "pts": 8.0,
-        "home": true,
-        "opponent": "HOU",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-01",
-        "pts": 19.0,
-        "home": true,
-        "opponent": "DET",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-03",
-        "pts": 8.0,
-        "home": true,
-        "opponent": "WAS",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-05",
-        "pts": 19.0,
-        "home": true,
-        "opponent": "DAL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-07",
-        "pts": 11.0,
-        "home": false,
-        "opponent": "MIN",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-08",
-        "pts": 5.0,
-        "home": false,
-        "opponent": "MIL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-11",
-        "pts": 23.0,
-        "home": true,
-        "opponent": "CLE",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-12",
-        "pts": 26.0,
-        "home": true,
-        "opponent": "WAS",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-14",
-        "pts": 11.0,
-        "home": false,
-        "opponent": "MIA",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-16",
-        "pts": 7.0,
-        "home": false,
-        "opponent": "ATL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-17",
-        "pts": 13.0,
-        "home": true,
-        "opponent": "OKC",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-19",
-        "pts": 4.0,
-        "home": false,
-        "opponent": "CHA",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-21",
-        "pts": 12.0,
-        "home": true,
-        "opponent": "LAL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-23",
-        "pts": 21.0,
-        "home": true,
-        "opponent": "IND",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-24",
-        "pts": 18.0,
-        "home": false,
-        "opponent": "CLE",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-26",
-        "pts": 18.0,
-        "home": true,
-        "opponent": "SAC",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-29",
-        "pts": 12.0,
-        "home": false,
-        "opponent": "TOR",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-31",
-        "pts": 9.0,
-        "home": true,
-        "opponent": "PHX",
-        "overLine": true
-      },
-      {
-        "date": "2026-04-01",
-        "pts": 9.0,
-        "home": true,
-        "opponent": "ATL",
-        "overLine": true
-      },
-      {
-        "date": "2026-04-03",
-        "pts": 19.0,
-        "home": false,
-        "opponent": "DAL",
-        "overLine": true
-      }
-    ],
-    "preMatchReason": "[Low conviction \u2014 lean only] Tristan da Silva's L30 average of 11.4pts sits above the 8.5 line by 2.9pts. Mixed signals: 4/10 agree. Key counter-signals: Context, Min_Trend. V14 model projects 9.5pts (+1.0 vs line). Fusion confidence: 49% [T3_LEAN]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
-    "lineHistory": [
-      {
-        "line": 8.5,
-        "batch": 1,
-        "ts": "2026-04-06T07:32:24.881759+00:00"
+        "line": 10.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -1960,11 +1427,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 22.5,
-    "overOdds": 102,
-    "underOdds": -136,
+    "overOdds": 102.0,
+    "underOdds": -136.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -2228,6 +1695,11 @@
         "line": 22.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 22.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -2239,11 +1711,11 @@
     "away": "Detroit Pistons",
     "opponent": "Detroit Pistons",
     "line": 22.5,
-    "overOdds": -114,
-    "underOdds": -114,
+    "overOdds": -114.0,
+    "underOdds": -114.0,
     "books": 3,
     "position": "Center",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -2507,6 +1979,295 @@
         "line": 22.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 22.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
+      }
+    ]
+  },
+  {
+    "player": "Paolo Banchero",
+    "date": "2026-04-06",
+    "game": "Detroit Pistons @ Orlando Magic",
+    "home": "Orlando Magic",
+    "away": "Detroit Pistons",
+    "opponent": "Detroit Pistons",
+    "line": 20.5,
+    "overOdds": -122.0,
+    "underOdds": -108.0,
+    "books": 4,
+    "position": "Forward",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
+    "direction": "LEAN UNDER",
+    "tierLabel": "T3_LEAN",
+    "tier": 3,
+    "conf": 0.4802,
+    "predPts": 17.4,
+    "predGap": 3.15,
+    "calProb": 0.47,
+    "gapConf": 0.6258,
+    "compConf": 0.56,
+    "composite": -0.2,
+    "flags": 4,
+    "flagDetails": [
+      {
+        "name": "Volume",
+        "value": 1.0,
+        "weight": 3.0,
+        "agrees": false
+      },
+      {
+        "name": "HR_L30",
+        "value": 0.0,
+        "weight": 2.5,
+        "agrees": false
+      },
+      {
+        "name": "HR_L10",
+        "value": -1.0,
+        "weight": 2.0,
+        "agrees": true
+      },
+      {
+        "name": "Trend",
+        "value": -1.0,
+        "weight": 2.0,
+        "agrees": true
+      },
+      {
+        "name": "Context",
+        "value": -1.0,
+        "weight": 1.0,
+        "agrees": true
+      },
+      {
+        "name": "Defense",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "H2H",
+        "value": 0.0,
+        "weight": 1.2,
+        "agrees": false
+      },
+      {
+        "name": "Pace",
+        "value": 0.0,
+        "weight": 0.5,
+        "agrees": false
+      },
+      {
+        "name": "FG_Trend",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "Min_Trend",
+        "value": -1.0,
+        "weight": 1.0,
+        "agrees": true
+      }
+    ],
+    "units": 0.0,
+    "h2hAligned": true,
+    "enginesAgree": true,
+    "earlySeasonW": 0.999,
+    "seasonProgress": 0.0,
+    "meanReversionRisk": 1.0,
+    "l30": 22.8,
+    "l10": 21.3,
+    "l5": 14.4,
+    "l3": 14.7,
+    "std10": 10.14,
+    "hr10": 0.4,
+    "hr30": 0.533,
+    "min_l10": 34.1,
+    "fga_l10": 15.9,
+    "defP_dynamic": 15.0,
+    "pace_rank": 15.0,
+    "h2h_avg": 0.0,
+    "h2h_games": 0,
+    "h2h_ts_dev": 0.0,
+    "h2h_fga_dev": 0.0,
+    "h2h_conf": 0.0,
+    "game_time": "",
+    "home_l10": 24.3,
+    "away_l10": 23.7,
+    "min_l30": 35.4,
+    "vol_risk": 2.079,
+    "usage_l10": 12.95,
+    "usage_l30": 20.05,
+    "min_cv": 0.134,
+    "fta_l10": 9.0,
+    "ft_rate": 0.566,
+    "fg3a_l10": 4.1,
+    "pts_per_min": 0.625,
+    "home_away_split": 0.6,
+    "level_ewm": 17.8,
+    "line_vs_l30": -2.3,
+    "extreme_hot": 0,
+    "extreme_cold": 1,
+    "is_long_rest": 1,
+    "recent_min_trend": -2.3,
+    "h2h_trend": 0.0,
+    "recent20": [
+      {
+        "date": "2026-03-01",
+        "pts": 24.0,
+        "home": true,
+        "opponent": "DET",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-03",
+        "pts": 37.0,
+        "home": true,
+        "opponent": "WAS",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-05",
+        "pts": 16.0,
+        "home": true,
+        "opponent": "DAL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-07",
+        "pts": 25.0,
+        "home": false,
+        "opponent": "MIN",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-08",
+        "pts": 33.0,
+        "home": false,
+        "opponent": "MIL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-11",
+        "pts": 25.0,
+        "home": true,
+        "opponent": "CLE",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-12",
+        "pts": 18.0,
+        "home": true,
+        "opponent": "WAS",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-14",
+        "pts": 27.0,
+        "home": false,
+        "opponent": "MIA",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-16",
+        "pts": 18.0,
+        "home": false,
+        "opponent": "ATL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-17",
+        "pts": 32.0,
+        "home": true,
+        "opponent": "OKC",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-19",
+        "pts": 20.0,
+        "home": false,
+        "opponent": "CHA",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-21",
+        "pts": 16.0,
+        "home": true,
+        "opponent": "LAL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-23",
+        "pts": 39.0,
+        "home": true,
+        "opponent": "IND",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-24",
+        "pts": 36.0,
+        "home": false,
+        "opponent": "CLE",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-26",
+        "pts": 30.0,
+        "home": true,
+        "opponent": "SAC",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-29",
+        "pts": 9.0,
+        "home": false,
+        "opponent": "TOR",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-31",
+        "pts": 19.0,
+        "home": true,
+        "opponent": "PHX",
+        "overLine": false
+      },
+      {
+        "date": "2026-04-01",
+        "pts": 11.0,
+        "home": true,
+        "opponent": "ATL",
+        "overLine": false
+      },
+      {
+        "date": "2026-04-03",
+        "pts": 10.0,
+        "home": false,
+        "opponent": "DAL",
+        "overLine": false
+      },
+      {
+        "date": "2026-04-05",
+        "pts": 23.0,
+        "home": false,
+        "opponent": "NOP",
+        "overLine": true
+      }
+    ],
+    "preMatchReason": "[Low conviction \u2014 lean only] Paolo Banchero is trending down 8.4pts vs their L30 baseline (L5: 14.4). Mixed signals: 4/10 agree. Key counter-signals: Volume. V14 model projects 17.4pts (+-3.1 vs line). Fusion confidence: 48% [T3_LEAN]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
+    "lineHistory": [
+      {
+        "line": 20.5,
+        "batch": 1,
+        "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 20.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -2518,19 +2279,19 @@
     "away": "Detroit Pistons",
     "opponent": "Detroit Pistons",
     "line": 11.5,
-    "overOdds": -125,
-    "underOdds": -106,
+    "overOdds": -125.0,
+    "underOdds": -106.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "LEAN UNDER",
     "tierLabel": "T3_LEAN",
     "tier": 3,
-    "conf": 0.4777,
-    "predPts": 12.7,
-    "predGap": 1.19,
+    "conf": 0.4787,
+    "predPts": 12.8,
+    "predGap": 1.27,
     "calProb": 0.47,
-    "gapConf": 0.5475,
+    "gapConf": 0.5507,
     "compConf": 0.57,
     "composite": 0.2333,
     "flags": 3,
@@ -2602,15 +2363,15 @@
     "earlySeasonW": 0.997,
     "seasonProgress": 0.0,
     "meanReversionRisk": 1.0,
-    "l30": 20.9,
-    "l10": 17.0,
-    "l5": 12.6,
-    "l3": 11.7,
-    "std10": 8.01,
-    "hr10": 0.8,
-    "hr30": 0.933,
-    "min_l10": 23.7,
-    "fga_l10": 13.2,
+    "l30": 20.4,
+    "l10": 15.6,
+    "l5": 12.0,
+    "l3": 13.7,
+    "std10": 7.71,
+    "hr10": 0.7,
+    "hr30": 0.9,
+    "min_l10": 22.5,
+    "fga_l10": 12.4,
     "defP_dynamic": 15.0,
     "pace_rank": 15.0,
     "h2h_avg": 0.0,
@@ -2620,32 +2381,25 @@
     "h2h_conf": 0.0,
     "game_time": "",
     "home_l10": 20.6,
-    "away_l10": 19.6,
-    "min_l30": 30.9,
-    "vol_risk": 0.921,
-    "usage_l10": 13.89,
-    "usage_l30": 18.7,
+    "away_l10": 18.2,
+    "min_l30": 30.4,
+    "vol_risk": 0.887,
+    "usage_l10": 11.75,
+    "usage_l30": 18.08,
     "min_cv": 0.361,
-    "fta_l10": 3.1,
-    "ft_rate": 0.235,
-    "fg3a_l10": 3.7,
-    "pts_per_min": 0.718,
-    "home_away_split": 1.0,
-    "level_ewm": 14.1,
-    "line_vs_l30": -9.4,
+    "fta_l10": 3.2,
+    "ft_rate": 0.258,
+    "fg3a_l10": 3.6,
+    "pts_per_min": 0.693,
+    "home_away_split": 2.4,
+    "level_ewm": 13.0,
+    "line_vs_l30": -8.9,
     "extreme_hot": 0,
     "extreme_cold": 1,
     "is_long_rest": 1,
-    "recent_min_trend": -4.4,
+    "recent_min_trend": -3.5,
     "h2h_trend": 0.0,
     "recent20": [
-      {
-        "date": "2025-11-10",
-        "pts": 19.0,
-        "home": true,
-        "opponent": "POR",
-        "overLine": true
-      },
       {
         "date": "2025-11-12",
         "pts": 28.0,
@@ -2778,14 +2532,26 @@
         "home": false,
         "opponent": "DAL",
         "overLine": true
+      },
+      {
+        "date": "2026-04-05",
+        "pts": 11.0,
+        "home": false,
+        "opponent": "NOP",
+        "overLine": false
       }
     ],
-    "preMatchReason": "[Low conviction \u2014 lean only] Franz Wagner is trending down 8.3pts vs their L30 baseline (L5: 12.6). Minutes are decreasing (L10: 24 vs L30: 31). Mixed signals: 3/10 agree. Key counter-signals: Trend, Context, Min_Trend. V14 model projects 12.7pts (+1.2 vs line). Fusion confidence: 48% [T3_LEAN]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
+    "preMatchReason": "[Low conviction \u2014 lean only] Franz Wagner is trending down 8.4pts vs their L30 baseline (L5: 12.0). Minutes are decreasing (L10: 22 vs L30: 30). Mixed signals: 3/10 agree. Key counter-signals: Trend, Context, Min_Trend. V14 model projects 12.8pts (+1.3 vs line). Fusion confidence: 48% [T3_LEAN]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
     "lineHistory": [
       {
         "line": 11.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 11.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -2797,11 +2563,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 19.0,
-    "overOdds": -122,
-    "underOdds": -108,
+    "overOdds": -122.0,
+    "underOdds": -108.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -3065,6 +2831,11 @@
         "line": 19.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 19.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -3076,11 +2847,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 8.5,
-    "overOdds": -108,
-    "underOdds": -122,
+    "overOdds": -108.0,
+    "underOdds": -122.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -3344,6 +3115,11 @@
         "line": 8.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 8.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -3355,11 +3131,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 11.5,
-    "overOdds": -114,
-    "underOdds": -114,
+    "overOdds": -114.0,
+    "underOdds": -114.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "LEAN UNDER",
     "tierLabel": "T3_LEAN",
     "tier": 3,
@@ -3623,6 +3399,11 @@
         "line": 11.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 11.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -3634,11 +3415,11 @@
     "away": "Detroit Pistons",
     "opponent": "Detroit Pistons",
     "line": 10.5,
-    "overOdds": -128,
-    "underOdds": -104,
+    "overOdds": -128.0,
+    "underOdds": -104.0,
     "books": 3,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -3902,6 +3683,295 @@
         "line": 10.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 10.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
+      }
+    ]
+  },
+  {
+    "player": "Desmond Bane",
+    "date": "2026-04-06",
+    "game": "Detroit Pistons @ Orlando Magic",
+    "home": "Orlando Magic",
+    "away": "Detroit Pistons",
+    "opponent": "Detroit Pistons",
+    "line": 17.5,
+    "overOdds": -132.0,
+    "underOdds": 100.0,
+    "books": 4,
+    "position": "Guard",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
+    "direction": "UNDER",
+    "tierLabel": "T3",
+    "tier": 3,
+    "conf": 0.4715,
+    "predPts": 16.0,
+    "predGap": 1.48,
+    "calProb": 0.446,
+    "gapConf": 0.5591,
+    "compConf": 0.59,
+    "composite": 0.3,
+    "flags": 1,
+    "flagDetails": [
+      {
+        "name": "Volume",
+        "value": 1.0,
+        "weight": 3.0,
+        "agrees": false
+      },
+      {
+        "name": "HR_L30",
+        "value": 1.0,
+        "weight": 2.5,
+        "agrees": false
+      },
+      {
+        "name": "HR_L10",
+        "value": 0.0,
+        "weight": 2.0,
+        "agrees": false
+      },
+      {
+        "name": "Trend",
+        "value": 0.0,
+        "weight": 2.0,
+        "agrees": false
+      },
+      {
+        "name": "Context",
+        "value": -1.0,
+        "weight": 1.0,
+        "agrees": true
+      },
+      {
+        "name": "Defense",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "H2H",
+        "value": 0.0,
+        "weight": 1.2,
+        "agrees": false
+      },
+      {
+        "name": "Pace",
+        "value": 0.0,
+        "weight": 0.5,
+        "agrees": false
+      },
+      {
+        "name": "FG_Trend",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "Min_Trend",
+        "value": 0.0,
+        "weight": 1.0,
+        "agrees": false
+      }
+    ],
+    "units": 0.0,
+    "h2hAligned": true,
+    "enginesAgree": true,
+    "earlySeasonW": 1.0,
+    "seasonProgress": 0.0,
+    "meanReversionRisk": 0.0,
+    "l30": 22.1,
+    "l10": 19.9,
+    "l5": 21.2,
+    "l3": 22.7,
+    "std10": 5.01,
+    "hr10": 0.5,
+    "hr30": 0.667,
+    "min_l10": 32.8,
+    "fga_l10": 13.9,
+    "defP_dynamic": 15.0,
+    "pace_rank": 15.0,
+    "h2h_avg": 0.0,
+    "h2h_games": 0,
+    "h2h_ts_dev": 0.0,
+    "h2h_fga_dev": 0.0,
+    "h2h_conf": 0.0,
+    "game_time": "",
+    "home_l10": 19.9,
+    "away_l10": 22.1,
+    "min_l30": 33.9,
+    "vol_risk": 0.877,
+    "usage_l10": 9.13,
+    "usage_l30": 15.23,
+    "min_cv": 0.122,
+    "fta_l10": 6.2,
+    "ft_rate": 0.446,
+    "fg3a_l10": 5.4,
+    "pts_per_min": 0.607,
+    "home_away_split": -2.2,
+    "level_ewm": 22.9,
+    "line_vs_l30": -4.6,
+    "extreme_hot": 0,
+    "extreme_cold": 0,
+    "is_long_rest": 1,
+    "recent_min_trend": -0.4,
+    "h2h_trend": 0.0,
+    "recent20": [
+      {
+        "date": "2026-03-01",
+        "pts": 17.0,
+        "home": true,
+        "opponent": "DET",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-03",
+        "pts": 25.0,
+        "home": true,
+        "opponent": "WAS",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-05",
+        "pts": 14.0,
+        "home": true,
+        "opponent": "DAL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-07",
+        "pts": 30.0,
+        "home": false,
+        "opponent": "MIN",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-08",
+        "pts": 18.0,
+        "home": false,
+        "opponent": "MIL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-11",
+        "pts": 35.0,
+        "home": true,
+        "opponent": "CLE",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-12",
+        "pts": 22.0,
+        "home": true,
+        "opponent": "WAS",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-14",
+        "pts": 21.0,
+        "home": false,
+        "opponent": "MIA",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-16",
+        "pts": 18.0,
+        "home": false,
+        "opponent": "ATL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-17",
+        "pts": 16.0,
+        "home": true,
+        "opponent": "OKC",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-19",
+        "pts": 24.0,
+        "home": false,
+        "opponent": "CHA",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-21",
+        "pts": 12.0,
+        "home": true,
+        "opponent": "LAL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-23",
+        "pts": 17.0,
+        "home": true,
+        "opponent": "IND",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-24",
+        "pts": 17.0,
+        "home": false,
+        "opponent": "CLE",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-26",
+        "pts": 23.0,
+        "home": true,
+        "opponent": "SAC",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-29",
+        "pts": 17.0,
+        "home": false,
+        "opponent": "TOR",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-31",
+        "pts": 21.0,
+        "home": true,
+        "opponent": "PHX",
+        "overLine": true
+      },
+      {
+        "date": "2026-04-01",
+        "pts": 14.0,
+        "home": true,
+        "opponent": "ATL",
+        "overLine": false
+      },
+      {
+        "date": "2026-04-03",
+        "pts": 27.0,
+        "home": false,
+        "opponent": "DAL",
+        "overLine": true
+      },
+      {
+        "date": "2026-04-05",
+        "pts": 27.0,
+        "home": false,
+        "opponent": "NOP",
+        "overLine": true
+      }
+    ],
+    "preMatchReason": "Desmond Bane's L30 average of 22.1pts sits above the 17.5 line by 4.6pts. Mixed signals: 1/10 agree. Key counter-signals: Volume, HR_L30. V14 model projects 16.0pts (+-1.5 vs line). Fusion confidence: 47% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
+    "lineHistory": [
+      {
+        "line": 17.5,
+        "batch": 1,
+        "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 17.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -3913,11 +3983,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 15.5,
-    "overOdds": -130,
-    "underOdds": -102,
+    "overOdds": -130.0,
+    "underOdds": -102.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -4181,6 +4251,11 @@
         "line": 15.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 15.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -4192,11 +4267,11 @@
     "away": "Detroit Pistons",
     "opponent": "Detroit Pistons",
     "line": 9.5,
-    "overOdds": -132,
-    "underOdds": 100,
+    "overOdds": -132.0,
+    "underOdds": 100.0,
     "books": 3,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -4460,6 +4535,11 @@
         "line": 9.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 9.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -4471,11 +4551,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 28.5,
-    "overOdds": -104,
-    "underOdds": -128,
+    "overOdds": -104.0,
+    "underOdds": -128.0,
     "books": 4,
     "position": "Center",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -4739,6 +4819,295 @@
         "line": 28.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 28.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
+      }
+    ]
+  },
+  {
+    "player": "Tristan da Silva",
+    "date": "2026-04-06",
+    "game": "Detroit Pistons @ Orlando Magic",
+    "home": "Orlando Magic",
+    "away": "Detroit Pistons",
+    "opponent": "Detroit Pistons",
+    "line": 8.5,
+    "overOdds": 100.0,
+    "underOdds": -132.0,
+    "books": 5,
+    "position": "Forward",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
+    "direction": "LEAN UNDER",
+    "tierLabel": "T3_LEAN",
+    "tier": 3,
+    "conf": 0.4683,
+    "predPts": 8.9,
+    "predGap": 0.36,
+    "calProb": 0.47,
+    "gapConf": 0.5143,
+    "compConf": 0.57,
+    "composite": 0.2333,
+    "flags": 3,
+    "flagDetails": [
+      {
+        "name": "Volume",
+        "value": 1.0,
+        "weight": 3.0,
+        "agrees": true
+      },
+      {
+        "name": "HR_L30",
+        "value": 1.0,
+        "weight": 2.5,
+        "agrees": true
+      },
+      {
+        "name": "HR_L10",
+        "value": 1.0,
+        "weight": 2.0,
+        "agrees": true
+      },
+      {
+        "name": "Trend",
+        "value": -1.0,
+        "weight": 2.0,
+        "agrees": false
+      },
+      {
+        "name": "Context",
+        "value": -1.0,
+        "weight": 1.0,
+        "agrees": false
+      },
+      {
+        "name": "Defense",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "H2H",
+        "value": 0.0,
+        "weight": 1.2,
+        "agrees": false
+      },
+      {
+        "name": "Pace",
+        "value": 0.0,
+        "weight": 0.5,
+        "agrees": false
+      },
+      {
+        "name": "FG_Trend",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "Min_Trend",
+        "value": -1.0,
+        "weight": 1.0,
+        "agrees": false
+      }
+    ],
+    "units": 0.0,
+    "h2hAligned": true,
+    "enginesAgree": false,
+    "earlySeasonW": 1.0,
+    "seasonProgress": 0.0,
+    "meanReversionRisk": 0.0,
+    "l30": 11.3,
+    "l10": 12.4,
+    "l5": 10.2,
+    "l3": 10.0,
+    "std10": 6.18,
+    "hr10": 0.8,
+    "hr30": 0.6,
+    "min_l10": 26.4,
+    "fga_l10": 8.4,
+    "defP_dynamic": 15.0,
+    "pace_rank": 15.0,
+    "h2h_avg": 0.0,
+    "h2h_games": 0,
+    "h2h_ts_dev": 0.0,
+    "h2h_fga_dev": 0.0,
+    "h2h_conf": 0.0,
+    "game_time": "",
+    "home_l10": 15.8,
+    "away_l10": 10.2,
+    "min_l30": 27.7,
+    "vol_risk": 0.526,
+    "usage_l10": 5.46,
+    "usage_l30": 8.36,
+    "min_cv": 0.218,
+    "fta_l10": 3.2,
+    "ft_rate": 0.381,
+    "fg3a_l10": 4.0,
+    "pts_per_min": 0.469,
+    "home_away_split": 5.6,
+    "level_ewm": 10.0,
+    "line_vs_l30": -2.8,
+    "extreme_hot": 0,
+    "extreme_cold": 0,
+    "is_long_rest": 1,
+    "recent_min_trend": -3.3,
+    "h2h_trend": 0.0,
+    "recent20": [
+      {
+        "date": "2026-03-01",
+        "pts": 19.0,
+        "home": true,
+        "opponent": "DET",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-03",
+        "pts": 8.0,
+        "home": true,
+        "opponent": "WAS",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-05",
+        "pts": 19.0,
+        "home": true,
+        "opponent": "DAL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-07",
+        "pts": 11.0,
+        "home": false,
+        "opponent": "MIN",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-08",
+        "pts": 5.0,
+        "home": false,
+        "opponent": "MIL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-11",
+        "pts": 23.0,
+        "home": true,
+        "opponent": "CLE",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-12",
+        "pts": 26.0,
+        "home": true,
+        "opponent": "WAS",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-14",
+        "pts": 11.0,
+        "home": false,
+        "opponent": "MIA",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-16",
+        "pts": 7.0,
+        "home": false,
+        "opponent": "ATL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-17",
+        "pts": 13.0,
+        "home": true,
+        "opponent": "OKC",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-19",
+        "pts": 4.0,
+        "home": false,
+        "opponent": "CHA",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-21",
+        "pts": 12.0,
+        "home": true,
+        "opponent": "LAL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-23",
+        "pts": 21.0,
+        "home": true,
+        "opponent": "IND",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-24",
+        "pts": 18.0,
+        "home": false,
+        "opponent": "CLE",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-26",
+        "pts": 18.0,
+        "home": true,
+        "opponent": "SAC",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-29",
+        "pts": 12.0,
+        "home": false,
+        "opponent": "TOR",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-31",
+        "pts": 9.0,
+        "home": true,
+        "opponent": "PHX",
+        "overLine": true
+      },
+      {
+        "date": "2026-04-01",
+        "pts": 9.0,
+        "home": true,
+        "opponent": "ATL",
+        "overLine": true
+      },
+      {
+        "date": "2026-04-03",
+        "pts": 19.0,
+        "home": false,
+        "opponent": "DAL",
+        "overLine": true
+      },
+      {
+        "date": "2026-04-05",
+        "pts": 2.0,
+        "home": false,
+        "opponent": "NOP",
+        "overLine": false
+      }
+    ],
+    "preMatchReason": "[Low conviction \u2014 lean only] Tristan da Silva's L30 average of 11.3pts sits above the 8.5 line by 2.8pts. Mixed signals: 3/10 agree. Key counter-signals: Trend, Context, Min_Trend. V14 model projects 8.9pts (+0.4 vs line). Fusion confidence: 47% [T3_LEAN]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
+    "lineHistory": [
+      {
+        "line": 8.5,
+        "batch": 1,
+        "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 8.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -4750,22 +5119,22 @@
     "away": "Detroit Pistons",
     "opponent": "Detroit Pistons",
     "line": 11.5,
-    "overOdds": -132,
-    "underOdds": 100,
+    "overOdds": -132.0,
+    "underOdds": 100.0,
     "books": 4,
     "position": "Center",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "LEAN UNDER",
     "tierLabel": "T3_LEAN",
     "tier": 3,
     "conf": 0.463,
-    "predPts": 11.9,
-    "predGap": 0.39,
+    "predPts": 11.6,
+    "predGap": 0.15,
     "calProb": 0.446,
-    "gapConf": 0.5157,
-    "compConf": 0.62,
-    "composite": 0.4,
-    "flags": 3,
+    "gapConf": 0.5058,
+    "compConf": 0.64,
+    "composite": 0.4667,
+    "flags": 4,
     "flagDetails": [
       {
         "name": "Volume",
@@ -4823,9 +5192,9 @@
       },
       {
         "name": "Min_Trend",
-        "value": 0.0,
+        "value": 1.0,
         "weight": 1.0,
-        "agrees": false
+        "agrees": true
       }
     ],
     "units": 0.0,
@@ -4834,15 +5203,15 @@
     "earlySeasonW": 1.0,
     "seasonProgress": 0.0,
     "meanReversionRisk": 0.0,
-    "l30": 11.9,
-    "l10": 14.4,
-    "l5": 14.2,
-    "l3": 19.0,
-    "std10": 5.83,
+    "l30": 12.0,
+    "l10": 14.0,
+    "l5": 14.8,
+    "l3": 18.3,
+    "std10": 5.78,
     "hr10": 0.7,
-    "hr30": 0.467,
-    "min_l10": 29.4,
-    "fga_l10": 8.7,
+    "hr30": 0.5,
+    "min_l10": 29.7,
+    "fga_l10": 8.4,
     "defP_dynamic": 15.0,
     "pace_rank": 15.0,
     "h2h_avg": 0.0,
@@ -4852,32 +5221,25 @@
     "h2h_conf": 0.0,
     "game_time": "",
     "home_l10": 12.9,
-    "away_l10": 14.0,
-    "min_l30": 28.9,
-    "vol_risk": 0.671,
-    "usage_l10": 7.05,
-    "usage_l30": 8.97,
-    "min_cv": 0.116,
-    "fta_l10": 4.7,
-    "ft_rate": 0.54,
-    "fg3a_l10": 2.6,
-    "pts_per_min": 0.49,
-    "home_away_split": -1.1,
-    "level_ewm": 17.7,
-    "line_vs_l30": -0.4,
+    "away_l10": 14.6,
+    "min_l30": 29.0,
+    "vol_risk": 0.665,
+    "usage_l10": 5.87,
+    "usage_l30": 8.72,
+    "min_cv": 0.115,
+    "fta_l10": 4.8,
+    "ft_rate": 0.571,
+    "fg3a_l10": 2.2,
+    "pts_per_min": 0.471,
+    "home_away_split": -1.7,
+    "level_ewm": 16.1,
+    "line_vs_l30": -0.5,
     "extreme_hot": 0,
     "extreme_cold": 0,
     "is_long_rest": 1,
-    "recent_min_trend": 0.4,
+    "recent_min_trend": 1.2,
     "h2h_trend": 0.0,
     "recent20": [
-      {
-        "date": "2026-02-22",
-        "pts": 15.0,
-        "home": false,
-        "opponent": "LAC",
-        "overLine": true
-      },
       {
         "date": "2026-02-24",
         "pts": 20.0,
@@ -5010,14 +5372,26 @@
         "home": false,
         "opponent": "DAL",
         "overLine": true
+      },
+      {
+        "date": "2026-04-05",
+        "pts": 13.0,
+        "home": false,
+        "opponent": "NOP",
+        "overLine": true
       }
     ],
-    "preMatchReason": "[Low conviction \u2014 lean only] Wendell Carter Jr. is trending up 2.3pts vs their L30 baseline (L5: 14.2). Mixed signals: 3/10 agree. Key counter-signals: Context. V14 model projects 11.9pts (+0.4 vs line). Fusion confidence: 46% [T3_LEAN]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
+    "preMatchReason": "[Low conviction \u2014 lean only] Wendell Carter Jr. is trending up 2.8pts vs their L30 baseline (L5: 14.8). Mixed signals: 4/10 agree. Key counter-signals: Context. V14 model projects 11.6pts (+0.1 vs line). Fusion confidence: 46% [T3_LEAN]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
     "lineHistory": [
       {
         "line": 11.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 11.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -5029,11 +5403,11 @@
     "away": "Detroit Pistons",
     "opponent": "Detroit Pistons",
     "line": 9.5,
-    "overOdds": -114,
-    "underOdds": -114,
+    "overOdds": -114.0,
+    "underOdds": -114.0,
     "books": 3,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -5297,6 +5671,11 @@
         "line": 9.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 9.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -5308,11 +5687,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 25.0,
-    "overOdds": -130,
-    "underOdds": -102,
+    "overOdds": -130.0,
+    "underOdds": -102.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -5576,6 +5955,11 @@
         "line": 25.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 25.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -5587,11 +5971,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 17.5,
-    "overOdds": -118,
-    "underOdds": -112,
+    "overOdds": -118.0,
+    "underOdds": -112.0,
     "books": 5,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -5855,285 +6239,11 @@
         "line": 17.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
-      }
-    ]
-  },
-  {
-    "player": "Paolo Banchero",
-    "date": "2026-04-06",
-    "game": "Detroit Pistons @ Orlando Magic",
-    "home": "Orlando Magic",
-    "away": "Detroit Pistons",
-    "opponent": "Detroit Pistons",
-    "line": 20.5,
-    "overOdds": -122,
-    "underOdds": -108,
-    "books": 4,
-    "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
-    "direction": "UNDER",
-    "tierLabel": "T3",
-    "tier": 3,
-    "conf": 0.4599,
-    "predPts": 17.9,
-    "predGap": 2.56,
-    "calProb": 0.446,
-    "gapConf": 0.6025,
-    "compConf": 0.56,
-    "composite": -0.2,
-    "flags": 4,
-    "flagDetails": [
-      {
-        "name": "Volume",
-        "value": 1.0,
-        "weight": 3.0,
-        "agrees": false
       },
       {
-        "name": "HR_L30",
-        "value": 0.0,
-        "weight": 2.5,
-        "agrees": false
-      },
-      {
-        "name": "HR_L10",
-        "value": -1.0,
-        "weight": 2.0,
-        "agrees": true
-      },
-      {
-        "name": "Trend",
-        "value": -1.0,
-        "weight": 2.0,
-        "agrees": true
-      },
-      {
-        "name": "Context",
-        "value": -1.0,
-        "weight": 1.0,
-        "agrees": true
-      },
-      {
-        "name": "Defense",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "H2H",
-        "value": 0.0,
-        "weight": 1.2,
-        "agrees": false
-      },
-      {
-        "name": "Pace",
-        "value": 0.0,
-        "weight": 0.5,
-        "agrees": false
-      },
-      {
-        "name": "FG_Trend",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "Min_Trend",
-        "value": -1.0,
-        "weight": 1.0,
-        "agrees": true
-      }
-    ],
-    "units": 0.0,
-    "h2hAligned": true,
-    "enginesAgree": true,
-    "earlySeasonW": 0.999,
-    "seasonProgress": 0.0,
-    "meanReversionRisk": 1.0,
-    "l30": 22.7,
-    "l10": 22.2,
-    "l5": 15.8,
-    "l3": 13.3,
-    "std10": 10.64,
-    "hr10": 0.4,
-    "hr30": 0.5,
-    "min_l10": 33.9,
-    "fga_l10": 16.6,
-    "defP_dynamic": 15.0,
-    "pace_rank": 15.0,
-    "h2h_avg": 0.0,
-    "h2h_games": 0,
-    "h2h_ts_dev": 0.0,
-    "h2h_fga_dev": 0.0,
-    "h2h_conf": 0.0,
-    "game_time": "",
-    "home_l10": 24.3,
-    "away_l10": 23.0,
-    "min_l30": 35.3,
-    "vol_risk": 2.181,
-    "usage_l10": 15.37,
-    "usage_l30": 20.59,
-    "min_cv": 0.131,
-    "fta_l10": 8.1,
-    "ft_rate": 0.488,
-    "fg3a_l10": 4.4,
-    "pts_per_min": 0.655,
-    "home_away_split": 1.3,
-    "level_ewm": 15.3,
-    "line_vs_l30": -2.2,
-    "extreme_hot": 0,
-    "extreme_cold": 1,
-    "is_long_rest": 1,
-    "recent_min_trend": -2.4,
-    "h2h_trend": 0.0,
-    "recent20": [
-      {
-        "date": "2026-02-26",
-        "pts": 19.0,
-        "home": true,
-        "opponent": "HOU",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-01",
-        "pts": 24.0,
-        "home": true,
-        "opponent": "DET",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-03",
-        "pts": 37.0,
-        "home": true,
-        "opponent": "WAS",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-05",
-        "pts": 16.0,
-        "home": true,
-        "opponent": "DAL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-07",
-        "pts": 25.0,
-        "home": false,
-        "opponent": "MIN",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-08",
-        "pts": 33.0,
-        "home": false,
-        "opponent": "MIL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-11",
-        "pts": 25.0,
-        "home": true,
-        "opponent": "CLE",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-12",
-        "pts": 18.0,
-        "home": true,
-        "opponent": "WAS",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-14",
-        "pts": 27.0,
-        "home": false,
-        "opponent": "MIA",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-16",
-        "pts": 18.0,
-        "home": false,
-        "opponent": "ATL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-17",
-        "pts": 32.0,
-        "home": true,
-        "opponent": "OKC",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-19",
-        "pts": 20.0,
-        "home": false,
-        "opponent": "CHA",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-21",
-        "pts": 16.0,
-        "home": true,
-        "opponent": "LAL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-23",
-        "pts": 39.0,
-        "home": true,
-        "opponent": "IND",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-24",
-        "pts": 36.0,
-        "home": false,
-        "opponent": "CLE",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-26",
-        "pts": 30.0,
-        "home": true,
-        "opponent": "SAC",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-29",
-        "pts": 9.0,
-        "home": false,
-        "opponent": "TOR",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-31",
-        "pts": 19.0,
-        "home": true,
-        "opponent": "PHX",
-        "overLine": false
-      },
-      {
-        "date": "2026-04-01",
-        "pts": 11.0,
-        "home": true,
-        "opponent": "ATL",
-        "overLine": false
-      },
-      {
-        "date": "2026-04-03",
-        "pts": 10.0,
-        "home": false,
-        "opponent": "DAL",
-        "overLine": false
-      }
-    ],
-    "preMatchReason": "Paolo Banchero is trending down 6.9pts vs their L30 baseline (L5: 15.8). Mixed signals: 4/10 agree. Key counter-signals: Volume. V14 model projects 17.9pts (+-2.6 vs line). Fusion confidence: 46% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
-    "lineHistory": [
-      {
-        "line": 20.5,
-        "batch": 1,
-        "ts": "2026-04-06T07:32:24.881759+00:00"
+        "line": 17.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -6145,11 +6255,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 18.5,
-    "overOdds": -102,
-    "underOdds": -130,
+    "overOdds": -102.0,
+    "underOdds": -130.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -6413,6 +6523,11 @@
         "line": 18.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 18.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -6424,11 +6539,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 25.0,
-    "overOdds": 100,
-    "underOdds": -132,
+    "overOdds": 100.0,
+    "underOdds": -132.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -6692,6 +6807,11 @@
         "line": 25.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 25.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -6703,11 +6823,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 12.5,
-    "overOdds": -102,
-    "underOdds": -130,
+    "overOdds": -102.0,
+    "underOdds": -130.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -6971,6 +7091,11 @@
         "line": 12.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 12.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -6982,11 +7107,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 19.5,
-    "overOdds": -102,
-    "underOdds": -130,
+    "overOdds": -102.0,
+    "underOdds": -130.0,
     "books": 4,
     "position": "Center",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -7250,6 +7375,11 @@
         "line": 19.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 19.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -7261,11 +7391,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 15.5,
-    "overOdds": -130,
-    "underOdds": -102,
+    "overOdds": -130.0,
+    "underOdds": -102.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -7529,6 +7659,11 @@
         "line": 15.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 15.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -7540,11 +7675,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 5.0,
-    "overOdds": 102,
-    "underOdds": -136,
+    "overOdds": 102.0,
+    "underOdds": -136.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -7808,6 +7943,11 @@
         "line": 5.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 5.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -7819,11 +7959,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 12.0,
-    "overOdds": -102,
-    "underOdds": -130,
+    "overOdds": -102.0,
+    "underOdds": -130.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -8087,285 +8227,11 @@
         "line": 12.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
-      }
-    ]
-  },
-  {
-    "player": "Desmond Bane",
-    "date": "2026-04-06",
-    "game": "Detroit Pistons @ Orlando Magic",
-    "home": "Orlando Magic",
-    "away": "Detroit Pistons",
-    "opponent": "Detroit Pistons",
-    "line": 17.5,
-    "overOdds": -132,
-    "underOdds": 100,
-    "books": 4,
-    "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
-    "direction": "UNDER",
-    "tierLabel": "T3",
-    "tier": 3,
-    "conf": 0.4577,
-    "predPts": 16.2,
-    "predGap": 1.33,
-    "calProb": 0.446,
-    "gapConf": 0.553,
-    "compConf": 0.51,
-    "composite": 0.0333,
-    "flags": 3,
-    "flagDetails": [
-      {
-        "name": "Volume",
-        "value": 1.0,
-        "weight": 3.0,
-        "agrees": false
       },
       {
-        "name": "HR_L30",
-        "value": 1.0,
-        "weight": 2.5,
-        "agrees": false
-      },
-      {
-        "name": "HR_L10",
-        "value": -1.0,
-        "weight": 2.0,
-        "agrees": true
-      },
-      {
-        "name": "Trend",
-        "value": -1.0,
-        "weight": 2.0,
-        "agrees": true
-      },
-      {
-        "name": "Context",
-        "value": -1.0,
-        "weight": 1.0,
-        "agrees": true
-      },
-      {
-        "name": "Defense",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "H2H",
-        "value": 0.0,
-        "weight": 1.2,
-        "agrees": false
-      },
-      {
-        "name": "Pace",
-        "value": 0.0,
-        "weight": 0.5,
-        "agrees": false
-      },
-      {
-        "name": "FG_Trend",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "Min_Trend",
-        "value": 0.0,
-        "weight": 1.0,
-        "agrees": false
-      }
-    ],
-    "units": 0.0,
-    "h2hAligned": true,
-    "enginesAgree": true,
-    "earlySeasonW": 1.0,
-    "seasonProgress": 0.0,
-    "meanReversionRisk": 0.0,
-    "l30": 22.0,
-    "l10": 18.8,
-    "l5": 20.4,
-    "l3": 20.7,
-    "std10": 4.51,
-    "hr10": 0.4,
-    "hr30": 0.667,
-    "min_l10": 33.0,
-    "fga_l10": 13.1,
-    "defP_dynamic": 15.0,
-    "pace_rank": 15.0,
-    "h2h_avg": 0.0,
-    "h2h_games": 0,
-    "h2h_ts_dev": 0.0,
-    "h2h_fga_dev": 0.0,
-    "h2h_conf": 0.0,
-    "game_time": "",
-    "home_l10": 19.9,
-    "away_l10": 23.0,
-    "min_l30": 34.0,
-    "vol_risk": 0.79,
-    "usage_l10": 9.85,
-    "usage_l30": 15.79,
-    "min_cv": 0.124,
-    "fta_l10": 5.1,
-    "ft_rate": 0.389,
-    "fg3a_l10": 5.3,
-    "pts_per_min": 0.57,
-    "home_away_split": -3.1,
-    "level_ewm": 20.7,
-    "line_vs_l30": -4.5,
-    "extreme_hot": 0,
-    "extreme_cold": 0,
-    "is_long_rest": 1,
-    "recent_min_trend": 0.5,
-    "h2h_trend": 0.0,
-    "recent20": [
-      {
-        "date": "2026-02-26",
-        "pts": 30.0,
-        "home": true,
-        "opponent": "HOU",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-01",
-        "pts": 17.0,
-        "home": true,
-        "opponent": "DET",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-03",
-        "pts": 25.0,
-        "home": true,
-        "opponent": "WAS",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-05",
-        "pts": 14.0,
-        "home": true,
-        "opponent": "DAL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-07",
-        "pts": 30.0,
-        "home": false,
-        "opponent": "MIN",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-08",
-        "pts": 18.0,
-        "home": false,
-        "opponent": "MIL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-11",
-        "pts": 35.0,
-        "home": true,
-        "opponent": "CLE",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-12",
-        "pts": 22.0,
-        "home": true,
-        "opponent": "WAS",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-14",
-        "pts": 21.0,
-        "home": false,
-        "opponent": "MIA",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-16",
-        "pts": 18.0,
-        "home": false,
-        "opponent": "ATL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-17",
-        "pts": 16.0,
-        "home": true,
-        "opponent": "OKC",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-19",
-        "pts": 24.0,
-        "home": false,
-        "opponent": "CHA",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-21",
-        "pts": 12.0,
-        "home": true,
-        "opponent": "LAL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-23",
-        "pts": 17.0,
-        "home": true,
-        "opponent": "IND",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-24",
-        "pts": 17.0,
-        "home": false,
-        "opponent": "CLE",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-26",
-        "pts": 23.0,
-        "home": true,
-        "opponent": "SAC",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-29",
-        "pts": 17.0,
-        "home": false,
-        "opponent": "TOR",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-31",
-        "pts": 21.0,
-        "home": true,
-        "opponent": "PHX",
-        "overLine": true
-      },
-      {
-        "date": "2026-04-01",
-        "pts": 14.0,
-        "home": true,
-        "opponent": "ATL",
-        "overLine": false
-      },
-      {
-        "date": "2026-04-03",
-        "pts": 27.0,
-        "home": false,
-        "opponent": "DAL",
-        "overLine": true
-      }
-    ],
-    "preMatchReason": "Desmond Bane's L30 average of 22.0pts sits above the 17.5 line by 4.5pts. Mixed signals: 3/10 agree. Key counter-signals: Volume, HR_L30. V14 model projects 16.2pts (+-1.3 vs line). Fusion confidence: 46% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
-    "lineHistory": [
-      {
-        "line": 17.5,
-        "batch": 1,
-        "ts": "2026-04-06T07:32:24.881759+00:00"
+        "line": 12.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -8377,11 +8243,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 17.5,
-    "overOdds": -112,
-    "underOdds": -118,
+    "overOdds": -112.0,
+    "underOdds": -118.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -8645,6 +8511,295 @@
         "line": 17.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 17.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
+      }
+    ]
+  },
+  {
+    "player": "James Harden",
+    "date": "2026-04-06",
+    "game": "Cleveland Cavaliers @ Memphis Grizzlies",
+    "home": "Memphis Grizzlies",
+    "away": "Cleveland Cavaliers",
+    "opponent": "Cleveland Cavaliers",
+    "line": 19.5,
+    "overOdds": -108.0,
+    "underOdds": -122.0,
+    "books": 5,
+    "position": "Guard",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
+    "direction": "UNDER",
+    "tierLabel": "T3",
+    "tier": 3,
+    "conf": 0.457,
+    "predPts": 17.6,
+    "predGap": 1.87,
+    "calProb": 0.4302,
+    "gapConf": 0.5746,
+    "compConf": 0.52,
+    "composite": -0.0667,
+    "flags": 3,
+    "flagDetails": [
+      {
+        "name": "Volume",
+        "value": 1.0,
+        "weight": 3.0,
+        "agrees": false
+      },
+      {
+        "name": "HR_L30",
+        "value": 0.0,
+        "weight": 2.5,
+        "agrees": false
+      },
+      {
+        "name": "HR_L10",
+        "value": 0.0,
+        "weight": 2.0,
+        "agrees": false
+      },
+      {
+        "name": "Trend",
+        "value": -1.0,
+        "weight": 2.0,
+        "agrees": true
+      },
+      {
+        "name": "Context",
+        "value": -1.0,
+        "weight": 1.0,
+        "agrees": true
+      },
+      {
+        "name": "Defense",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "H2H",
+        "value": 0.0,
+        "weight": 1.2,
+        "agrees": false
+      },
+      {
+        "name": "Pace",
+        "value": 0.0,
+        "weight": 0.5,
+        "agrees": false
+      },
+      {
+        "name": "FG_Trend",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "Min_Trend",
+        "value": -1.0,
+        "weight": 1.0,
+        "agrees": true
+      }
+    ],
+    "units": 0.0,
+    "h2hAligned": true,
+    "enginesAgree": true,
+    "earlySeasonW": 1.0,
+    "seasonProgress": 0.0,
+    "meanReversionRisk": 0.0,
+    "l30": 21.0,
+    "l10": 22.1,
+    "l5": 18.8,
+    "l3": 21.3,
+    "std10": 6.58,
+    "hr10": 0.5,
+    "hr30": 0.5,
+    "min_l10": 35.3,
+    "fga_l10": 13.7,
+    "defP_dynamic": 15.0,
+    "pace_rank": 15.0,
+    "h2h_avg": 0.0,
+    "h2h_games": 0,
+    "h2h_ts_dev": 0.0,
+    "h2h_fga_dev": 0.0,
+    "h2h_conf": 0.0,
+    "game_time": "",
+    "home_l10": 19.6,
+    "away_l10": 22.1,
+    "min_l30": 34.0,
+    "vol_risk": 1.283,
+    "usage_l10": 10.57,
+    "usage_l30": 17.17,
+    "min_cv": 0.115,
+    "fta_l10": 6.6,
+    "ft_rate": 0.482,
+    "fg3a_l10": 7.4,
+    "pts_per_min": 0.626,
+    "home_away_split": -2.5,
+    "level_ewm": 21.5,
+    "line_vs_l30": -1.5,
+    "extreme_hot": 0,
+    "extreme_cold": 0,
+    "is_long_rest": 1,
+    "recent_min_trend": -2.4,
+    "h2h_trend": 0.0,
+    "recent20": [
+      {
+        "date": "2026-02-20",
+        "pts": 18.0,
+        "home": false,
+        "opponent": "CHA",
+        "overLine": false
+      },
+      {
+        "date": "2026-02-22",
+        "pts": 20.0,
+        "home": false,
+        "opponent": "OKC",
+        "overLine": true
+      },
+      {
+        "date": "2026-02-24",
+        "pts": 20.0,
+        "home": true,
+        "opponent": "NYK",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-01",
+        "pts": 22.0,
+        "home": false,
+        "opponent": "BKN",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-03",
+        "pts": 18.0,
+        "home": true,
+        "opponent": "DET",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-08",
+        "pts": 19.0,
+        "home": true,
+        "opponent": "BOS",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-09",
+        "pts": 21.0,
+        "home": true,
+        "opponent": "PHI",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-11",
+        "pts": 30.0,
+        "home": false,
+        "opponent": "ORL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-13",
+        "pts": 17.0,
+        "home": false,
+        "opponent": "DAL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-15",
+        "pts": 13.0,
+        "home": true,
+        "opponent": "DAL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-17",
+        "pts": 27.0,
+        "home": false,
+        "opponent": "MIL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-19",
+        "pts": 36.0,
+        "home": false,
+        "opponent": "CHI",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-21",
+        "pts": 20.0,
+        "home": false,
+        "opponent": "NOP",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-24",
+        "pts": 26.0,
+        "home": true,
+        "opponent": "ORL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-25",
+        "pts": 18.0,
+        "home": true,
+        "opponent": "MIA",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-27",
+        "pts": 17.0,
+        "home": true,
+        "opponent": "MIA",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-30",
+        "pts": 13.0,
+        "home": false,
+        "opponent": "UTA",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-31",
+        "pts": 17.0,
+        "home": false,
+        "opponent": "LAL",
+        "overLine": false
+      },
+      {
+        "date": "2026-04-02",
+        "pts": 19.0,
+        "home": false,
+        "opponent": "GSW",
+        "overLine": false
+      },
+      {
+        "date": "2026-04-05",
+        "pts": 28.0,
+        "home": true,
+        "opponent": "IND",
+        "overLine": true
+      }
+    ],
+    "preMatchReason": "James Harden is trending down 2.2pts vs their L30 baseline (L5: 18.8). Mixed signals: 3/10 agree. Key counter-signals: Volume. V14 model projects 17.6pts (+-1.9 vs line). Fusion confidence: 46% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
+    "lineHistory": [
+      {
+        "line": 19.5,
+        "batch": 1,
+        "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 19.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -8656,11 +8811,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 5.5,
-    "overOdds": -106,
-    "underOdds": -125,
+    "overOdds": -106.0,
+    "underOdds": -125.0,
     "books": 3,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -8924,6 +9079,11 @@
         "line": 5.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 5.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -8935,11 +9095,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 10.5,
-    "overOdds": -125,
-    "underOdds": -106,
+    "overOdds": -125.0,
+    "underOdds": -106.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -9203,6 +9363,11 @@
         "line": 10.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 10.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -9214,11 +9379,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 13.0,
-    "overOdds": -125,
-    "underOdds": -104,
+    "overOdds": -125.0,
+    "underOdds": -104.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -9482,6 +9647,11 @@
         "line": 13.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 13.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -9493,11 +9663,11 @@
     "away": "Detroit Pistons",
     "opponent": "Detroit Pistons",
     "line": 9.5,
-    "overOdds": 100,
-    "underOdds": -132,
+    "overOdds": 100.0,
+    "underOdds": -132.0,
     "books": 3,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -9761,6 +9931,11 @@
         "line": 9.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 9.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -9772,11 +9947,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 12.5,
-    "overOdds": -122,
-    "underOdds": -108,
+    "overOdds": -122.0,
+    "underOdds": -108.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -10040,6 +10215,11 @@
         "line": 12.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 12.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -10051,11 +10231,11 @@
     "away": "Cleveland Cavaliers",
     "opponent": "Cleveland Cavaliers",
     "line": 15.0,
-    "overOdds": -156,
-    "underOdds": 121,
+    "overOdds": -156.0,
+    "underOdds": 121.0,
     "books": 2,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -10319,6 +10499,11 @@
         "line": 15.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 15.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -10330,11 +10515,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 7.5,
-    "overOdds": -108,
-    "underOdds": -122,
+    "overOdds": -108.0,
+    "underOdds": -122.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -10598,6 +10783,11 @@
         "line": 7.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 7.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -10609,11 +10799,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 13.5,
-    "overOdds": -108,
-    "underOdds": -122,
+    "overOdds": -108.0,
+    "underOdds": -122.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "LEAN UNDER",
     "tierLabel": "T3_LEAN",
     "tier": 3,
@@ -10877,6 +11067,11 @@
         "line": 13.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 13.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -10888,11 +11083,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 12.5,
-    "overOdds": -104,
-    "underOdds": -128,
+    "overOdds": -104.0,
+    "underOdds": -128.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "LEAN UNDER",
     "tierLabel": "T3_LEAN",
     "tier": 3,
@@ -11156,6 +11351,11 @@
         "line": 12.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 12.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -11167,11 +11367,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 13.5,
-    "overOdds": 102,
-    "underOdds": -136,
+    "overOdds": 102.0,
+    "underOdds": -136.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -11435,6 +11635,11 @@
         "line": 13.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 13.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -11446,11 +11651,11 @@
     "away": "Cleveland Cavaliers",
     "opponent": "Cleveland Cavaliers",
     "line": 13.5,
-    "overOdds": -108,
-    "underOdds": -120,
+    "overOdds": -108.0,
+    "underOdds": -120.0,
     "books": 2,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -11714,6 +11919,11 @@
         "line": 13.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 13.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -11725,11 +11935,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 26.0,
-    "overOdds": -110,
-    "underOdds": -120,
+    "overOdds": -110.0,
+    "underOdds": -120.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -11993,285 +12203,11 @@
         "line": 26.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
-      }
-    ]
-  },
-  {
-    "player": "Jevon Carter",
-    "date": "2026-04-06",
-    "game": "Detroit Pistons @ Orlando Magic",
-    "home": "Orlando Magic",
-    "away": "Detroit Pistons",
-    "opponent": "Detroit Pistons",
-    "line": 7.5,
-    "overOdds": -118,
-    "underOdds": -110,
-    "books": 4,
-    "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
-    "direction": "UNDER",
-    "tierLabel": "T3",
-    "tier": 3,
-    "conf": 0.4435,
-    "predPts": 5.9,
-    "predGap": 1.6,
-    "calProb": 0.3554,
-    "gapConf": 0.5642,
-    "compConf": 0.73,
-    "composite": -0.7667,
-    "flags": 6,
-    "flagDetails": [
-      {
-        "name": "Volume",
-        "value": -1.0,
-        "weight": 3.0,
-        "agrees": true
       },
       {
-        "name": "HR_L30",
-        "value": -1.0,
-        "weight": 2.5,
-        "agrees": true
-      },
-      {
-        "name": "HR_L10",
-        "value": -1.0,
-        "weight": 2.0,
-        "agrees": true
-      },
-      {
-        "name": "Trend",
-        "value": -1.0,
-        "weight": 2.0,
-        "agrees": true
-      },
-      {
-        "name": "Context",
-        "value": -1.0,
-        "weight": 1.0,
-        "agrees": true
-      },
-      {
-        "name": "Defense",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "H2H",
-        "value": 0.0,
-        "weight": 1.2,
-        "agrees": false
-      },
-      {
-        "name": "Pace",
-        "value": 0.0,
-        "weight": 0.5,
-        "agrees": false
-      },
-      {
-        "name": "FG_Trend",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "Min_Trend",
-        "value": -1.0,
-        "weight": 1.0,
-        "agrees": true
-      }
-    ],
-    "units": 0.0,
-    "h2hAligned": true,
-    "enginesAgree": true,
-    "earlySeasonW": 0.995,
-    "seasonProgress": 0.0,
-    "meanReversionRisk": 0.0,
-    "l30": 6.7,
-    "l10": 7.4,
-    "l5": 4.4,
-    "l3": 2.7,
-    "std10": 4.74,
-    "hr10": 0.4,
-    "hr30": 0.4,
-    "min_l10": 20.6,
-    "fga_l10": 7.7,
-    "defP_dynamic": 15.0,
-    "pace_rank": 15.0,
-    "h2h_avg": 0.0,
-    "h2h_games": 0,
-    "h2h_ts_dev": 0.0,
-    "h2h_fga_dev": 0.0,
-    "h2h_conf": 0.0,
-    "game_time": "",
-    "home_l10": 6.9,
-    "away_l10": 6.9,
-    "min_l30": 18.4,
-    "vol_risk": 0.355,
-    "usage_l10": 6.26,
-    "usage_l30": 6.69,
-    "min_cv": 0.193,
-    "fta_l10": 0.2,
-    "ft_rate": 0.026,
-    "fg3a_l10": 5.1,
-    "pts_per_min": 0.36,
-    "home_away_split": 0.0,
-    "level_ewm": 4.8,
-    "line_vs_l30": 0.8,
-    "extreme_hot": 0,
-    "extreme_cold": 0,
-    "is_long_rest": 1,
-    "recent_min_trend": -1.5,
-    "h2h_trend": 0.0,
-    "recent20": [
-      {
-        "date": "2026-02-26",
-        "pts": 14.0,
-        "home": true,
-        "opponent": "HOU",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-01",
-        "pts": 2.0,
-        "home": true,
-        "opponent": "DET",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-03",
-        "pts": 10.0,
-        "home": true,
-        "opponent": "WAS",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-05",
-        "pts": 8.0,
-        "home": true,
-        "opponent": "DAL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-07",
-        "pts": 6.0,
-        "home": false,
-        "opponent": "MIN",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-08",
-        "pts": 5.0,
-        "home": false,
-        "opponent": "MIL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-11",
-        "pts": 9.0,
-        "home": true,
-        "opponent": "CLE",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-12",
-        "pts": 6.0,
-        "home": true,
-        "opponent": "WAS",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-14",
-        "pts": 7.0,
-        "home": false,
-        "opponent": "MIA",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-16",
-        "pts": 13.0,
-        "home": false,
-        "opponent": "ATL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-17",
-        "pts": 11.0,
-        "home": true,
-        "opponent": "OKC",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-19",
-        "pts": 11.0,
-        "home": false,
-        "opponent": "CHA",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-21",
-        "pts": 13.0,
-        "home": true,
-        "opponent": "LAL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-23",
-        "pts": 2.0,
-        "home": true,
-        "opponent": "IND",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-24",
-        "pts": 15.0,
-        "home": false,
-        "opponent": "CLE",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-26",
-        "pts": 7.0,
-        "home": true,
-        "opponent": "SAC",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-29",
-        "pts": 7.0,
-        "home": false,
-        "opponent": "TOR",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-31",
-        "pts": 0.0,
-        "home": true,
-        "opponent": "PHX",
-        "overLine": false
-      },
-      {
-        "date": "2026-04-01",
-        "pts": 3.0,
-        "home": true,
-        "opponent": "ATL",
-        "overLine": false
-      },
-      {
-        "date": "2026-04-03",
-        "pts": 5.0,
-        "home": false,
-        "opponent": "DAL",
-        "overLine": false
-      }
-    ],
-    "preMatchReason": "Jevon Carter is trending down 2.3pts vs their L30 baseline (L5: 4.4). Minutes are increasing (L10: 21 vs L30: 18). Strong signal alignment: 6/10 in favour. Opposing: none. V14 model projects 5.9pts (+-1.6 vs line). Fusion confidence: 44% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
-    "lineHistory": [
-      {
-        "line": 7.5,
-        "batch": 1,
-        "ts": "2026-04-06T07:32:24.881759+00:00"
+        "line": 26.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -12283,11 +12219,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 28.5,
-    "overOdds": -108,
-    "underOdds": -122,
+    "overOdds": -108.0,
+    "underOdds": -122.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -12551,6 +12487,11 @@
         "line": 28.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 28.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -12562,11 +12503,11 @@
     "away": "Detroit Pistons",
     "opponent": "Detroit Pistons",
     "line": 13.5,
-    "overOdds": -128,
-    "underOdds": -104,
+    "overOdds": -128.0,
+    "underOdds": -104.0,
     "books": 3,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -12830,6 +12771,11 @@
         "line": 13.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 13.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -12841,11 +12787,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 13.5,
-    "overOdds": -125,
-    "underOdds": -106,
+    "overOdds": -125.0,
+    "underOdds": -106.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -13109,6 +13055,11 @@
         "line": 13.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 13.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -13120,11 +13071,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 7.5,
-    "overOdds": 100,
-    "underOdds": -132,
+    "overOdds": 100.0,
+    "underOdds": -132.0,
     "books": 4,
     "position": "Center",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -13388,6 +13339,295 @@
         "line": 7.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 7.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
+      }
+    ]
+  },
+  {
+    "player": "Jevon Carter",
+    "date": "2026-04-06",
+    "game": "Detroit Pistons @ Orlando Magic",
+    "home": "Orlando Magic",
+    "away": "Detroit Pistons",
+    "opponent": "Detroit Pistons",
+    "line": 7.5,
+    "overOdds": -118.0,
+    "underOdds": -110.0,
+    "books": 4,
+    "position": "Guard",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
+    "direction": "UNDER",
+    "tierLabel": "T3",
+    "tier": 3,
+    "conf": 0.438,
+    "predPts": 6.4,
+    "predGap": 1.14,
+    "calProb": 0.3554,
+    "gapConf": 0.5457,
+    "compConf": 0.73,
+    "composite": -0.7667,
+    "flags": 6,
+    "flagDetails": [
+      {
+        "name": "Volume",
+        "value": -1.0,
+        "weight": 3.0,
+        "agrees": true
+      },
+      {
+        "name": "HR_L30",
+        "value": -1.0,
+        "weight": 2.5,
+        "agrees": true
+      },
+      {
+        "name": "HR_L10",
+        "value": -1.0,
+        "weight": 2.0,
+        "agrees": true
+      },
+      {
+        "name": "Trend",
+        "value": -1.0,
+        "weight": 2.0,
+        "agrees": true
+      },
+      {
+        "name": "Context",
+        "value": -1.0,
+        "weight": 1.0,
+        "agrees": true
+      },
+      {
+        "name": "Defense",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "H2H",
+        "value": 0.0,
+        "weight": 1.2,
+        "agrees": false
+      },
+      {
+        "name": "Pace",
+        "value": 0.0,
+        "weight": 0.5,
+        "agrees": false
+      },
+      {
+        "name": "FG_Trend",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "Min_Trend",
+        "value": -1.0,
+        "weight": 1.0,
+        "agrees": true
+      }
+    ],
+    "units": 0.0,
+    "h2hAligned": true,
+    "enginesAgree": true,
+    "earlySeasonW": 0.995,
+    "seasonProgress": 0.0,
+    "meanReversionRisk": 0.0,
+    "l30": 7.0,
+    "l10": 7.4,
+    "l5": 5.2,
+    "l3": 6.3,
+    "std10": 4.74,
+    "hr10": 0.4,
+    "hr30": 0.433,
+    "min_l10": 20.8,
+    "fga_l10": 7.5,
+    "defP_dynamic": 15.0,
+    "pace_rank": 15.0,
+    "h2h_avg": 0.0,
+    "h2h_games": 0,
+    "h2h_ts_dev": 0.0,
+    "h2h_fga_dev": 0.0,
+    "h2h_conf": 0.0,
+    "game_time": "",
+    "home_l10": 6.9,
+    "away_l10": 8.0,
+    "min_l30": 19.0,
+    "vol_risk": 0.355,
+    "usage_l10": 5.29,
+    "usage_l30": 6.73,
+    "min_cv": 0.189,
+    "fta_l10": 0.0,
+    "ft_rate": 0.0,
+    "fg3a_l10": 4.7,
+    "pts_per_min": 0.357,
+    "home_away_split": -1.1,
+    "level_ewm": 6.9,
+    "line_vs_l30": 0.5,
+    "extreme_hot": 0,
+    "extreme_cold": 0,
+    "is_long_rest": 1,
+    "recent_min_trend": -2.1,
+    "h2h_trend": 0.0,
+    "recent20": [
+      {
+        "date": "2026-03-01",
+        "pts": 2.0,
+        "home": true,
+        "opponent": "DET",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-03",
+        "pts": 10.0,
+        "home": true,
+        "opponent": "WAS",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-05",
+        "pts": 8.0,
+        "home": true,
+        "opponent": "DAL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-07",
+        "pts": 6.0,
+        "home": false,
+        "opponent": "MIN",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-08",
+        "pts": 5.0,
+        "home": false,
+        "opponent": "MIL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-11",
+        "pts": 9.0,
+        "home": true,
+        "opponent": "CLE",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-12",
+        "pts": 6.0,
+        "home": true,
+        "opponent": "WAS",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-14",
+        "pts": 7.0,
+        "home": false,
+        "opponent": "MIA",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-16",
+        "pts": 13.0,
+        "home": false,
+        "opponent": "ATL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-17",
+        "pts": 11.0,
+        "home": true,
+        "opponent": "OKC",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-19",
+        "pts": 11.0,
+        "home": false,
+        "opponent": "CHA",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-21",
+        "pts": 13.0,
+        "home": true,
+        "opponent": "LAL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-23",
+        "pts": 2.0,
+        "home": true,
+        "opponent": "IND",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-24",
+        "pts": 15.0,
+        "home": false,
+        "opponent": "CLE",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-26",
+        "pts": 7.0,
+        "home": true,
+        "opponent": "SAC",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-29",
+        "pts": 7.0,
+        "home": false,
+        "opponent": "TOR",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-31",
+        "pts": 0.0,
+        "home": true,
+        "opponent": "PHX",
+        "overLine": false
+      },
+      {
+        "date": "2026-04-01",
+        "pts": 3.0,
+        "home": true,
+        "opponent": "ATL",
+        "overLine": false
+      },
+      {
+        "date": "2026-04-03",
+        "pts": 5.0,
+        "home": false,
+        "opponent": "DAL",
+        "overLine": false
+      },
+      {
+        "date": "2026-04-05",
+        "pts": 11.0,
+        "home": false,
+        "opponent": "NOP",
+        "overLine": true
+      }
+    ],
+    "preMatchReason": "Jevon Carter's L30 of 7.0pts vs the 7.5 line. Strong signal alignment: 6/10 in favour. Opposing: none. V14 model projects 6.4pts (+-1.1 vs line). Fusion confidence: 44% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
+    "lineHistory": [
+      {
+        "line": 7.5,
+        "batch": 1,
+        "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 7.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -13399,11 +13639,11 @@
     "away": "New York Knicks",
     "opponent": "New York Knicks",
     "line": 10.5,
-    "overOdds": -114,
-    "underOdds": -114,
+    "overOdds": -114.0,
+    "underOdds": -114.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -13667,6 +13907,11 @@
         "line": 10.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 10.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -13678,11 +13923,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 11.5,
-    "overOdds": -118,
-    "underOdds": -112,
+    "overOdds": -118.0,
+    "underOdds": -112.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "LEAN UNDER",
     "tierLabel": "T3_LEAN",
     "tier": 3,
@@ -13946,6 +14191,11 @@
         "line": 11.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 11.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -13957,11 +14207,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 12.5,
-    "overOdds": -118,
-    "underOdds": -112,
+    "overOdds": -118.0,
+    "underOdds": -112.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -14225,6 +14475,295 @@
         "line": 12.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 12.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
+      }
+    ]
+  },
+  {
+    "player": "Max Strus",
+    "date": "2026-04-06",
+    "game": "Cleveland Cavaliers @ Memphis Grizzlies",
+    "home": "Memphis Grizzlies",
+    "away": "Cleveland Cavaliers",
+    "opponent": "Cleveland Cavaliers",
+    "line": 11.5,
+    "overOdds": -125.0,
+    "underOdds": -106.0,
+    "books": 4,
+    "position": "Guard",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
+    "direction": "UNDER",
+    "tierLabel": "T3",
+    "tier": 3,
+    "conf": 0.4338,
+    "predPts": 10.5,
+    "predGap": 1.02,
+    "calProb": 0.3889,
+    "gapConf": 0.5407,
+    "compConf": 0.61,
+    "composite": -0.3667,
+    "flags": 4,
+    "flagDetails": [
+      {
+        "name": "Volume",
+        "value": -1.0,
+        "weight": 3.0,
+        "agrees": true
+      },
+      {
+        "name": "HR_L30",
+        "value": -1.0,
+        "weight": 2.5,
+        "agrees": true
+      },
+      {
+        "name": "HR_L10",
+        "value": -1.0,
+        "weight": 2.0,
+        "agrees": true
+      },
+      {
+        "name": "Trend",
+        "value": 1.0,
+        "weight": 2.0,
+        "agrees": false
+      },
+      {
+        "name": "Context",
+        "value": -1.0,
+        "weight": 1.0,
+        "agrees": true
+      },
+      {
+        "name": "Defense",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "H2H",
+        "value": 0.0,
+        "weight": 1.2,
+        "agrees": false
+      },
+      {
+        "name": "Pace",
+        "value": 0.0,
+        "weight": 0.5,
+        "agrees": false
+      },
+      {
+        "name": "FG_Trend",
+        "value": 0.0,
+        "weight": 1.5,
+        "agrees": false
+      },
+      {
+        "name": "Min_Trend",
+        "value": 1.0,
+        "weight": 1.0,
+        "agrees": false
+      }
+    ],
+    "units": 0.0,
+    "h2hAligned": true,
+    "enginesAgree": true,
+    "earlySeasonW": 0.973,
+    "seasonProgress": 0.0,
+    "meanReversionRisk": 0.5,
+    "l30": 11.0,
+    "l10": 13.3,
+    "l5": 15.8,
+    "l3": 13.0,
+    "std10": 9.51,
+    "hr10": 0.4,
+    "hr30": 0.3,
+    "min_l10": 26.1,
+    "fga_l10": 9.6,
+    "defP_dynamic": 15.0,
+    "pace_rank": 15.0,
+    "h2h_avg": 0.0,
+    "h2h_games": 0,
+    "h2h_ts_dev": 0.0,
+    "h2h_fga_dev": 0.0,
+    "h2h_conf": 0.0,
+    "game_time": "",
+    "home_l10": 12.7,
+    "away_l10": 8.9,
+    "min_l30": 26.0,
+    "vol_risk": 1.093,
+    "usage_l10": 7.06,
+    "usage_l30": 8.16,
+    "min_cv": 0.15,
+    "fta_l10": 0.8,
+    "ft_rate": 0.083,
+    "fg3a_l10": 7.9,
+    "pts_per_min": 0.51,
+    "home_away_split": 3.8,
+    "level_ewm": 12.9,
+    "line_vs_l30": 0.5,
+    "extreme_hot": 0,
+    "extreme_cold": 0,
+    "is_long_rest": 1,
+    "recent_min_trend": 1.3,
+    "h2h_trend": 0.0,
+    "recent20": [
+      {
+        "date": "2025-03-19",
+        "pts": 12.0,
+        "home": false,
+        "opponent": "SAC",
+        "overLine": true
+      },
+      {
+        "date": "2025-03-21",
+        "pts": 9.0,
+        "home": false,
+        "opponent": "PHX",
+        "overLine": false
+      },
+      {
+        "date": "2025-03-23",
+        "pts": 7.0,
+        "home": false,
+        "opponent": "UTA",
+        "overLine": false
+      },
+      {
+        "date": "2025-03-25",
+        "pts": 5.0,
+        "home": false,
+        "opponent": "POR",
+        "overLine": false
+      },
+      {
+        "date": "2025-03-27",
+        "pts": 18.0,
+        "home": true,
+        "opponent": "SAS",
+        "overLine": true
+      },
+      {
+        "date": "2025-03-30",
+        "pts": 3.0,
+        "home": true,
+        "opponent": "LAC",
+        "overLine": false
+      },
+      {
+        "date": "2025-04-02",
+        "pts": 8.0,
+        "home": true,
+        "opponent": "NYK",
+        "overLine": false
+      },
+      {
+        "date": "2025-04-04",
+        "pts": 3.0,
+        "home": false,
+        "opponent": "SAS",
+        "overLine": false
+      },
+      {
+        "date": "2025-04-06",
+        "pts": 11.0,
+        "home": true,
+        "opponent": "SAC",
+        "overLine": false
+      },
+      {
+        "date": "2025-04-08",
+        "pts": 9.0,
+        "home": true,
+        "opponent": "CHI",
+        "overLine": false
+      },
+      {
+        "date": "2025-04-11",
+        "pts": 19.0,
+        "home": false,
+        "opponent": "NYK",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-15",
+        "pts": 24.0,
+        "home": true,
+        "opponent": "DAL",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-17",
+        "pts": 6.0,
+        "home": false,
+        "opponent": "MIL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-19",
+        "pts": 0.0,
+        "home": false,
+        "opponent": "CHI",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-21",
+        "pts": 5.0,
+        "home": false,
+        "opponent": "NOP",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-24",
+        "pts": 11.0,
+        "home": true,
+        "opponent": "ORL",
+        "overLine": false
+      },
+      {
+        "date": "2026-03-27",
+        "pts": 29.0,
+        "home": true,
+        "opponent": "MIA",
+        "overLine": true
+      },
+      {
+        "date": "2026-03-31",
+        "pts": 11.0,
+        "home": false,
+        "opponent": "LAL",
+        "overLine": false
+      },
+      {
+        "date": "2026-04-02",
+        "pts": 24.0,
+        "home": false,
+        "opponent": "GSW",
+        "overLine": true
+      },
+      {
+        "date": "2026-04-05",
+        "pts": 4.0,
+        "home": true,
+        "opponent": "IND",
+        "overLine": false
+      }
+    ],
+    "preMatchReason": "Max Strus is trending up 4.8pts vs their L30 baseline (L5: 15.8). Mixed signals: 4/10 agree. Key counter-signals: Trend, Min_Trend. V14 model projects 10.5pts (+-1.0 vs line). Fusion confidence: 43% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
+    "lineHistory": [
+      {
+        "line": 11.5,
+        "batch": 1,
+        "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 11.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -14236,11 +14775,11 @@
     "away": "Philadelphia 76ers",
     "opponent": "Philadelphia 76ers",
     "line": 25.0,
-    "overOdds": -102,
-    "underOdds": -130,
+    "overOdds": -102.0,
+    "underOdds": -130.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -14504,6 +15043,11 @@
         "line": 25.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 25.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -14515,11 +15059,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 15.5,
-    "overOdds": 102,
-    "underOdds": -136,
+    "overOdds": 102.0,
+    "underOdds": -136.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -14783,6 +15327,11 @@
         "line": 15.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 15.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -14794,11 +15343,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 15.5,
-    "overOdds": -128,
-    "underOdds": -104,
+    "overOdds": -128.0,
+    "underOdds": -104.0,
     "books": 5,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -15062,6 +15611,11 @@
         "line": 15.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 15.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -15073,21 +15627,21 @@
     "away": "Detroit Pistons",
     "opponent": "Detroit Pistons",
     "line": 14.5,
-    "overOdds": -120,
-    "underOdds": -110,
+    "overOdds": -120.0,
+    "underOdds": -110.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
-    "conf": 0.4153,
-    "predPts": 13.7,
-    "predGap": 0.78,
+    "conf": 0.4151,
+    "predPts": 13.5,
+    "predGap": 1.01,
     "calProb": 0.3436,
-    "gapConf": 0.5311,
-    "compConf": 0.65,
-    "composite": -0.5,
+    "gapConf": 0.5405,
+    "compConf": 0.63,
+    "composite": -0.4333,
     "flags": 4,
     "flagDetails": [
       {
@@ -15110,7 +15664,7 @@
       },
       {
         "name": "Trend",
-        "value": 0.0,
+        "value": 1.0,
         "weight": 2.0,
         "agrees": false
       },
@@ -15146,7 +15700,7 @@
       },
       {
         "name": "Min_Trend",
-        "value": 1.0,
+        "value": 0.0,
         "weight": 1.0,
         "agrees": false
       }
@@ -15158,14 +15712,14 @@
     "seasonProgress": 0.0,
     "meanReversionRisk": 0.0,
     "l30": 12.7,
-    "l10": 12.6,
-    "l5": 13.4,
-    "l3": 15.3,
+    "l10": 12.3,
+    "l5": 14.0,
+    "l3": 12.3,
     "std10": 4.34,
     "hr10": 0.2,
     "hr30": 0.3,
-    "min_l10": 30.6,
-    "fga_l10": 11.5,
+    "min_l10": 30.5,
+    "fga_l10": 11.7,
     "defP_dynamic": 15.0,
     "pace_rank": 15.0,
     "h2h_avg": 0.0,
@@ -15175,32 +15729,25 @@
     "h2h_conf": 0.0,
     "game_time": "",
     "home_l10": 14.4,
-    "away_l10": 13.1,
-    "min_l30": 28.5,
+    "away_l10": 13.7,
+    "min_l30": 29.0,
     "vol_risk": 0.629,
-    "usage_l10": 8.89,
-    "usage_l30": 12.41,
-    "min_cv": 0.152,
-    "fta_l10": 1.2,
-    "ft_rate": 0.104,
-    "fg3a_l10": 6.1,
-    "pts_per_min": 0.412,
-    "home_away_split": 1.3,
-    "level_ewm": 14.3,
+    "usage_l10": 7.1,
+    "usage_l30": 12.25,
+    "min_cv": 0.151,
+    "fta_l10": 1.0,
+    "ft_rate": 0.085,
+    "fg3a_l10": 6.4,
+    "pts_per_min": 0.403,
+    "home_away_split": 0.7,
+    "level_ewm": 13.2,
     "line_vs_l30": 1.8,
     "extreme_hot": 0,
     "extreme_cold": 0,
     "is_long_rest": 1,
-    "recent_min_trend": 1.1,
+    "recent_min_trend": -0.3,
     "h2h_trend": 0.0,
     "recent20": [
-      {
-        "date": "2026-02-11",
-        "pts": 16.0,
-        "home": true,
-        "opponent": "MIL",
-        "overLine": true
-      },
       {
         "date": "2026-02-19",
         "pts": 9.0,
@@ -15333,293 +15880,26 @@
         "home": false,
         "opponent": "DAL",
         "overLine": true
+      },
+      {
+        "date": "2026-04-05",
+        "pts": 11.0,
+        "home": false,
+        "opponent": "NOP",
+        "overLine": false
       }
     ],
-    "preMatchReason": "Jalen Suggs's L30 average of 12.7pts sits below the 14.5 line by 1.8pts. Minutes are increasing (L10: 31 vs L30: 28). Mixed signals: 4/10 agree. Key counter-signals: Min_Trend. V14 model projects 13.7pts (+-0.8 vs line). Fusion confidence: 42% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
+    "preMatchReason": "Jalen Suggs's L30 average of 12.7pts sits below the 14.5 line by 1.8pts. Mixed signals: 4/10 agree. Key counter-signals: Trend. V14 model projects 13.5pts (+-1.0 vs line). Fusion confidence: 42% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
     "lineHistory": [
       {
         "line": 14.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
-      }
-    ]
-  },
-  {
-    "player": "Max Strus",
-    "date": "2026-04-06",
-    "game": "Cleveland Cavaliers @ Memphis Grizzlies",
-    "home": "Memphis Grizzlies",
-    "away": "Cleveland Cavaliers",
-    "opponent": "Cleveland Cavaliers",
-    "line": 11.5,
-    "overOdds": -125,
-    "underOdds": -106,
-    "books": 4,
-    "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
-    "direction": "UNDER",
-    "tierLabel": "T3",
-    "tier": 3,
-    "conf": 0.4139,
-    "predPts": 10.8,
-    "predGap": 0.65,
-    "calProb": 0.3554,
-    "gapConf": 0.5261,
-    "compConf": 0.63,
-    "composite": -0.4333,
-    "flags": 4,
-    "flagDetails": [
-      {
-        "name": "Volume",
-        "value": -1.0,
-        "weight": 3.0,
-        "agrees": true
       },
       {
-        "name": "HR_L30",
-        "value": -1.0,
-        "weight": 2.5,
-        "agrees": true
-      },
-      {
-        "name": "HR_L10",
-        "value": -1.0,
-        "weight": 2.0,
-        "agrees": true
-      },
-      {
-        "name": "Trend",
-        "value": 1.0,
-        "weight": 2.0,
-        "agrees": false
-      },
-      {
-        "name": "Context",
-        "value": -1.0,
-        "weight": 1.0,
-        "agrees": true
-      },
-      {
-        "name": "Defense",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "H2H",
-        "value": 0.0,
-        "weight": 1.2,
-        "agrees": false
-      },
-      {
-        "name": "Pace",
-        "value": 0.0,
-        "weight": 0.5,
-        "agrees": false
-      },
-      {
-        "name": "FG_Trend",
-        "value": 0.0,
-        "weight": 1.5,
-        "agrees": false
-      },
-      {
-        "name": "Min_Trend",
-        "value": 0.0,
-        "weight": 1.0,
-        "agrees": false
-      }
-    ],
-    "units": 0.0,
-    "h2hAligned": true,
-    "enginesAgree": true,
-    "earlySeasonW": 0.971,
-    "seasonProgress": 0.0,
-    "meanReversionRisk": 0.5,
-    "l30": 11.4,
-    "l10": 13.8,
-    "l5": 16.0,
-    "l3": 21.3,
-    "std10": 9.13,
-    "hr10": 0.4,
-    "hr30": 0.333,
-    "min_l10": 25.5,
-    "fga_l10": 9.3,
-    "defP_dynamic": 15.0,
-    "pace_rank": 15.0,
-    "h2h_avg": 0.0,
-    "h2h_games": 0,
-    "h2h_ts_dev": 0.0,
-    "h2h_fga_dev": 0.0,
-    "h2h_conf": 0.0,
-    "game_time": "",
-    "home_l10": 13.3,
-    "away_l10": 8.9,
-    "min_l30": 25.7,
-    "vol_risk": 1.05,
-    "usage_l10": 7.68,
-    "usage_l30": 8.44,
-    "min_cv": 0.14,
-    "fta_l10": 0.6,
-    "ft_rate": 0.065,
-    "fg3a_l10": 7.7,
-    "pts_per_min": 0.541,
-    "home_away_split": 4.4,
-    "level_ewm": 17.4,
-    "line_vs_l30": 0.1,
-    "extreme_hot": 0,
-    "extreme_cold": 0,
-    "is_long_rest": 1,
-    "recent_min_trend": -0.9,
-    "h2h_trend": 0.0,
-    "recent20": [
-      {
-        "date": "2025-03-18",
-        "pts": 24.0,
-        "home": false,
-        "opponent": "LAC",
-        "overLine": true
-      },
-      {
-        "date": "2025-03-19",
-        "pts": 12.0,
-        "home": false,
-        "opponent": "SAC",
-        "overLine": true
-      },
-      {
-        "date": "2025-03-21",
-        "pts": 9.0,
-        "home": false,
-        "opponent": "PHX",
-        "overLine": false
-      },
-      {
-        "date": "2025-03-23",
-        "pts": 7.0,
-        "home": false,
-        "opponent": "UTA",
-        "overLine": false
-      },
-      {
-        "date": "2025-03-25",
-        "pts": 5.0,
-        "home": false,
-        "opponent": "POR",
-        "overLine": false
-      },
-      {
-        "date": "2025-03-27",
-        "pts": 18.0,
-        "home": true,
-        "opponent": "SAS",
-        "overLine": true
-      },
-      {
-        "date": "2025-03-30",
-        "pts": 3.0,
-        "home": true,
-        "opponent": "LAC",
-        "overLine": false
-      },
-      {
-        "date": "2025-04-02",
-        "pts": 8.0,
-        "home": true,
-        "opponent": "NYK",
-        "overLine": false
-      },
-      {
-        "date": "2025-04-04",
-        "pts": 3.0,
-        "home": false,
-        "opponent": "SAS",
-        "overLine": false
-      },
-      {
-        "date": "2025-04-06",
-        "pts": 11.0,
-        "home": true,
-        "opponent": "SAC",
-        "overLine": false
-      },
-      {
-        "date": "2025-04-08",
-        "pts": 9.0,
-        "home": true,
-        "opponent": "CHI",
-        "overLine": false
-      },
-      {
-        "date": "2025-04-11",
-        "pts": 19.0,
-        "home": false,
-        "opponent": "NYK",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-15",
-        "pts": 24.0,
-        "home": true,
-        "opponent": "DAL",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-17",
-        "pts": 6.0,
-        "home": false,
-        "opponent": "MIL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-19",
-        "pts": 0.0,
-        "home": false,
-        "opponent": "CHI",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-21",
-        "pts": 5.0,
-        "home": false,
-        "opponent": "NOP",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-24",
-        "pts": 11.0,
-        "home": true,
-        "opponent": "ORL",
-        "overLine": false
-      },
-      {
-        "date": "2026-03-27",
-        "pts": 29.0,
-        "home": true,
-        "opponent": "MIA",
-        "overLine": true
-      },
-      {
-        "date": "2026-03-31",
-        "pts": 11.0,
-        "home": false,
-        "opponent": "LAL",
-        "overLine": false
-      },
-      {
-        "date": "2026-04-02",
-        "pts": 24.0,
-        "home": false,
-        "opponent": "GSW",
-        "overLine": true
-      }
-    ],
-    "preMatchReason": "Max Strus is trending up 4.6pts vs their L30 baseline (L5: 16.0). Mixed signals: 4/10 agree. Key counter-signals: Trend. V14 model projects 10.8pts (+-0.7 vs line). Fusion confidence: 41% [T3]. [Long rest (\u22656 days): rust effect may suppress output vs L10 average.]",
-    "lineHistory": [
-      {
-        "line": 11.5,
-        "batch": 1,
-        "ts": "2026-04-06T07:32:24.881759+00:00"
+        "line": 14.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -15631,11 +15911,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 15.5,
-    "overOdds": -108,
-    "underOdds": -122,
+    "overOdds": -108.0,
+    "underOdds": -122.0,
     "books": 4,
     "position": "Forward",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "LEAN UNDER",
     "tierLabel": "T3_LEAN",
     "tier": 3,
@@ -15899,6 +16179,11 @@
         "line": 15.5,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 15.5,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -15910,11 +16195,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 13.0,
-    "overOdds": -114,
-    "underOdds": -114,
+    "overOdds": -114.0,
+    "underOdds": -114.0,
     "books": 4,
     "position": "Center",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -16178,6 +16463,11 @@
         "line": 13.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 13.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -16189,11 +16479,11 @@
     "away": "Portland Trail Blazers",
     "opponent": "Portland Trail Blazers",
     "line": 18.0,
-    "overOdds": -102,
-    "underOdds": -130,
+    "overOdds": -102.0,
+    "underOdds": -130.0,
     "books": 4,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -16457,6 +16747,11 @@
         "line": 18.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 18.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   },
@@ -16468,11 +16763,11 @@
     "away": "Detroit Pistons",
     "opponent": "Detroit Pistons",
     "line": 18.0,
-    "overOdds": 100,
-    "underOdds": -132,
+    "overOdds": 100.0,
+    "underOdds": -132.0,
     "books": 3,
     "position": "Guard",
-    "batchTs": "2026-04-06T07:32:24.881759+00:00",
+    "batchTs": "2026-04-06T10:35:00.270494+00:00",
     "direction": "UNDER",
     "tierLabel": "T3",
     "tier": 3,
@@ -16736,6 +17031,11 @@
         "line": 18.0,
         "batch": 1,
         "ts": "2026-04-06T07:32:24.881759+00:00"
+      },
+      {
+        "line": 18.0,
+        "batch": 2,
+        "ts": "2026-04-06T10:35:00.270494+00:00"
       }
     ]
   }
