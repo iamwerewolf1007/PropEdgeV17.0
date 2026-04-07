@@ -61,3 +61,7 @@ ts,batch,event,file,rows_before,rows_after,detail
 2026-04-07 08:30:03 UK,B1,BATCH_START,,0,0,date=2026-04-07
 2026-04-07 08:30:45 UK,B1,PROPS_FETCHED,,0,0,116 props
 2026-04-07 08:30:48 UK,B1,PREDICTIONS,,0,0,"114 plays, skipped={'no_player': 2, 'no_history': 0, 'no_feats': 0}"
+2026-04-07 08:31:12 UK,B1,BATCH_COMPLETE,,0,0,114 plays written
+2026-04-07 23:16:13 UK,B5,BATCH_START,,0,0,date=2026-04-07
+2026-04-07 23:16:28 UK,B5,PROPS_FETCHED,,0,0,116 props
+2026-04-07 23:16:30 UK,B5,PREDICTIONS,,0,0,"114 plays, skipped={'no_player': 2, 'no_history': 0, 'no_feats': 0}"
