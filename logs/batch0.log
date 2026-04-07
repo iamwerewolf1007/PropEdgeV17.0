@@ -41,3 +41,46 @@
 
   ✓ Batch 0 complete — graded 2026-04-05.
 
+
+============================================================
+  PropEdge V17.0 — Batch 0 (Grade + Retrain)
+  Grading: 2026-04-06
+============================================================
+  Fetching box scores for 2026-04-06...
+  5 games found
+  Box scores: 102 played rows, 140 players in box
+  Graded: 120 | W:56 L:52 DNP:12
+  Gamelogs: 25321 → 25429 rows (+108)
+  Post-match rolling updated.
+  Rolling crosscheck: 0 flag(s) of 54 checked
+  Building H2H database...
+  H2H database: 15,622 rows → h2h_database.csv
+  DVP updated: 90 entries written → dvp_rankings.json
+  Retraining V14 models (~5-8 min)...
+  Loading game logs (both seasons)...
+  Played rows: 51,048  |  Players: 634
+  Loading prop lines...
+  Real lines (2025-26): 16,751
+  Synthetic lines (2024-25): 23,144
+  Total props: 39,895
+  Extracting features...
+  Training rows: 37,344  (skipped: {'no_player': 1846, 'thin_history': 70, 'no_actual': 635, 'no_feats': 0})
+  Season split — 2025-26: 14,200  2024-25: 23,144
+  OVER rate — real: 48.5%  synthetic: 45.2%
+  OOF 5-fold training...
+    Fold 1: clf=0.691  reg=0.678
+    Fold 2: clf=0.690  reg=0.686
+    Fold 3: clf=0.662  reg=0.656
+    Fold 4: clf=0.634  reg=0.637
+    Fold 5: clf=0.668  reg=0.670
+  OOF clf acc: 0.669  |  OOF reg acc: 0.666
+  Player trust scores: 502 players
+  Training final models on full dataset...
+  Clf trees: 374  |  Reg trees: 400
+  In-sample clf direction acc: 69.3%  ← optimistic (use OOF figures)
+  ✓ Models saved → /Users/salman/Documents/GitHub/PropEdgeV17.0/models
+  ✓ Training rows used: 37,344  (2025-26 real: 14,200  2024-25 synthetic: 23,144)
+  Git push ✓
+
+  ✓ Batch 0 complete — graded 2026-04-06.
+
