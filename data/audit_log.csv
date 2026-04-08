@@ -65,3 +65,11 @@ ts,batch,event,file,rows_before,rows_after,detail
 2026-04-07 23:16:13 UK,B5,BATCH_START,,0,0,date=2026-04-07
 2026-04-07 23:16:28 UK,B5,PROPS_FETCHED,,0,0,116 props
 2026-04-07 23:16:30 UK,B5,PREDICTIONS,,0,0,"114 plays, skipped={'no_player': 2, 'no_history': 0, 'no_feats': 0}"
+2026-04-07 23:16:48 UK,B5,BATCH_COMPLETE,,0,0,114 plays written
+2026-04-08 10:05:52 UK,B0,BATCH_START,,0,0,grading_date=2026-04-07
+2026-04-08 10:06:09 UK,B0,BOXSCORES_FETCHED,,0,0,"217 rows, 265 players"
+2026-04-08 10:06:54 UK,B0,BATCH_SUMMARY,,0,0,graded=228 wins=98 losses=104 dnp=26
+2026-04-08 10:07:01 UK,B0,FILE_STATE_BEFORE_APPEND,nba_gamelogs_2025_26.csv,25429,25429,
+2026-04-08 10:09:42 UK,B0,INTEGRITY_OK,nba_gamelogs_2025_26.csv,25429,25659,
+2026-04-08 10:10:34 UK,B0,ROLLING_CROSSCHECK_FAIL,Jayson Tatum,0,0,"L30 drift 3.20pts (stored 24.7, fresh 21.5)"
+2026-04-08 10:10:35 UK,B0,ROLLING_CROSSCHECK_FAIL,Jayson Tatum,0,0,"L30 drift 3.20pts (stored 24.7, fresh 21.5)"
